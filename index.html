@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kết quả tuyển sinh THCS 2025 (VB, TG)</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap');
+
+        :root {
+            --primary-color: #4299e1;
+            --danger-color: #e53e3e;
+            --danger-hover: #c53030;
+            --text-color: #333;
+            --text-secondary: #4a5568;
+            --text-light: #718096;
+            --border-color: #e2e8f0;
+            --bg-color: #f5f7fa;
+            --header-bg: #4a5568;
+            --header-hover: #2d3748;
+            --row-hover: #f7fafc;
+            --disabled-bg: #cbd5e0;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            font-weight: 500;
+        }
+
+        body {
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .search-section {
+            background: white;
+            border-radius: 12px;
+            padding: 24px;
+            margin-bottom: 24px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .search-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+            margin-bottom: 16px;
+        }
+
+        .search-item {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .search-item label {
+            font-weight: 500;
+            color: var(--text-secondary);
+            margin-bottom: 4px;
+            font-size: 14px;
+        }
+
+        .input-wrapper {
+            position: relative;
+        }
+
+        .search-item input {
+            padding: 10px 12px;
+            border: 2px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 14px;
+            transition: border-color 0.2s;
+            background: #fff;
+            width: 100%;
+        }
+
+        .search-item input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+        }
+
+        .clear-input {
+            position: absolute;
+            right: 12px;
+            top: 50%;
+            transform: translateY(-50%);
+            cursor: pointer;
+            color: var(--text-light);
+            font-size: 20px;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+
+        .clear-input:hover {
+            color: var(--danger-color);
+        }
+
+        input:not(:placeholder-shown) + .clear-input {
+            opacity: 1;
+        }
+
+        .table-section {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .table-container {
+            overflow-x: auto;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+
+        th {
+            background: var(--header-bg);
+            color: white;
+            padding: 16px 12px;
+            text-align: left;
+            font-weight: 600;
+            font-size: 14px;
+            cursor: pointer;
+            user-select: none;
+            position: relative;
+            border-right: 1px solid var(--header-hover);
+        }
+
+        th:last-child {
+            border-right: none;
+        }
+
+        th:hover {
+            background: var(--header-hover);
+        }
+
+        th.sortable::after {
+            content: '↕';
+            position: absolute;
+            right: 8px;
+            opacity: 0.6;
+            font-size: 12px;
+        }
+
+        th.sort-asc::after {
+            content: '↑';
+            opacity: 1;
+        }
+
+        th.sort-desc::after {
+            content: '↓';
+            opacity: 1;
+        }
+
+        td {
+            padding: 12px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        tr:hover {
+            background: var(--row-hover);
+        }
+
+        .score {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 13px;
+            color: white;
+            min-width: 40px;
+            text-align: center;
+        }
+
+        .status-message {
+            text-align: center;
+            padding: 40px 20px;
+            color: var(--text-light);
+            font-size: 16px;
+        }
+
+        .status-loading {
+            color: var(--primary-color);
+        }
+
+        .status-error {
+            color: var(--danger-color);
+        }
+
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: var(--text-light);
+            font-size: 14px;
+            margin-top: 24px;
+        }
+
+        .footer a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        .col-sbd {
+            min-width: 80px;
+        }
+
+        .col-name {
+            min-width: 200px;
+        }
+
+        .col-class {
+            min-width: 70px;
+        }
+
+        .col-school {
+            min-width: 200px;
+        }
+
+        .col-van,
+        .col-toan,
+        .col-anh,
+        .col-total {
+            width: 60px;
+        }
+
+        @media (max-width: 768px) {
+            .search-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .table-container {
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="search-section">
+            <div class="search-grid">
+                <div class="search-item">
+                    <label for="searchName">Tên học sinh</label>
+                    <div class="input-wrapper">
+                        <input type="text" id="searchName" placeholder="Nhập tên..." style="text-transform: capitalize;" maxlength="50">
+                        <span class="clear-input" data-target="searchName">×</span>
+                    </div>
+                </div>
+                <div class="search-item">
+                    <label for="searchSchool">Trường học</label>
+                    <div class="input-wrapper">
+                        <input type="text" id="searchSchool" placeholder="Nhập tên trường..." style="text-transform: capitalize;" maxlength="50">
+                        <span class="clear-input" data-target="searchSchool">×</span>
+                    </div>
+                </div>
+                <div class="search-item">
+                    <label for="searchClass">Lớp học</label>
+                    <div class="input-wrapper">
+                        <input type="text" id="searchClass" placeholder="9/1, 9/2,..." maxlength="3">
+                        <span class="clear-input" data-target="searchClass">×</span>
+                    </div>
+                </div>
+                <div class="search-item">
+                    <label for="searchTotal">Điểm tổng</label>
+                    <div class="input-wrapper">
+                        <input type="text" id="searchTotal" placeholder="0-30" pattern="[0-9\.]+" maxlength="5">
+                        <span class="clear-input" data-target="searchTotal">×</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="table-section">
+            <div class="table-container">
+                <table id="dataTable">
+                    <thead>
+                        <tr>
+                            <th data-column="0" class="sortable col-sbd">SBD</th>
+                            <th data-column="1" class="sortable col-name">Họ và tên</th>
+                            <th data-column="2" class="sortable col-class">Lớp</th>
+                            <th data-column="3" class="sortable col-school">Trường</th>
+                            <th data-column="4" class="sortable col-van">Văn</th>
+                            <th data-column="5" class="sortable col-toan">Toán</th>
+                            <th data-column="6" class="sortable col-anh">Anh</th>
+                            <th data-column="7" class="sortable col-total">Tổng</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody">
+                        <tr>
+                            <td colspan="8" class="status-message status-loading">Đang tải dữ liệu...</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+        <div class="footer">
+            <p>Tạo bởi <strong><a href="https://claude.ai" target="_blank" rel="noopener noreferrer">Claude</a></strong> | <a href="https://github.com/FlyTri/TSTG2025" target="_blank" rel="noopener noreferrer">Source code</a></p>
+        </div>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            class StudentResultsTable {
+                constructor() {
+                    this.data = [];
+                    this.filteredData = [];
+                    this.currentSort = {column: -1, direction: 'asc'};
+                    this.searchTimeout = null;
+                    this.scoreColorCache = new Map();
+
+                    this.initElements();
+                    this.initEvents();
+                    this.loadData();
+                }
+
+                initElements() {
+                    this.elements = {
+                        tableBody: document.getElementById('tableBody'),
+                        searchName: document.getElementById('searchName'),
+                        searchSchool: document.getElementById('searchSchool'),
+                        searchClass: document.getElementById('searchClass'),
+                        searchTotal: document.getElementById('searchTotal'),
+                        tableHeaders: document.querySelectorAll('th[data-column]'),
+                        clearInputs: document.querySelectorAll('.clear-input')
+                    };
+                }
+
+                initEvents() {
+                    ['searchName', 'searchSchool', 'searchClass', 'searchTotal'].forEach(id => {
+                        this.elements[id].addEventListener('input', () => this.handleSearch());
+                    });
+
+                    this.elements.tableHeaders.forEach(header => {
+                        header.addEventListener('click', () => this.sortTable(parseInt(header.dataset.column)))
+                    });
+
+                    this.elements.clearInputs.forEach(btn => {
+                        btn.addEventListener('click', (e) => {
+                            const targetId = e.target.getAttribute('data-target');
+                            document.getElementById(targetId).value = '';
+                            this.handleSearch();
+                        });
+                    });
+                }
+
+                async loadData() {
+                    try {
+                        const response = await fetch('data.csv');
+                        if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+
+                        const csvText = await response.text();
+                        this.parseCSV(csvText);
+                        this.filteredData = [...this.data];
+                        this.renderTable();
+                    } catch (error) {
+                        console.error('Error:', error);
+                        this.showError('Không thể tải dữ liệu. Vui lòng kiểm tra file data.csv');
+                    }
+                }
+
+                parseCSV(csvText) {
+                    const lines = csvText.trim().split('\n');
+                    this.data = [];
+
+                    for (let i = 1; i < lines.length; i++) {
+                        const values = lines[i].split(',');
+                        if (values.length >= 8) {
+                            this.data.push({
+                                sbd: values[0]?.trim() || '',
+                                name: values[1]?.trim() || '',
+                                class: values[2]?.trim() || '',
+                                school: values[3]?.trim() || '',
+                                van: this.parseScore(values[4]),
+                                toan: this.parseScore(values[5]),
+                                anh: this.parseScore(values[6]),
+                                total: this.parseScore(values[7])
+                            });
+                        }
+                    }
+                }
+
+                parseScore(value) {
+                    const score = parseFloat(value);
+                    return isNaN(score) ? 0 : score;
+                }
+
+                handleSearch() {
+                    clearTimeout(this.searchTimeout);
+                    this.searchTimeout = setTimeout(() => {
+                        this.filterData();
+                    }, 150);
+                }
+
+                filterData() {
+                    const nameFilter = this.elements.searchName.value.toLowerCase().trim();
+                    const schoolFilter = this.elements.searchSchool.value.toLowerCase().trim();
+                    const classFilter = this.elements.searchClass.value.trim();
+                    const totalFilter = this.elements.searchTotal.value.trim();
+
+                    if (!nameFilter && !schoolFilter && !classFilter && !totalFilter) {
+                        this.filteredData = [...this.data];
+                    } else {
+                        this.filteredData = this.data.filter(row => {
+                            return (!nameFilter || row.name.toLowerCase().includes(nameFilter)) &&
+                                (!schoolFilter || row.school.toLowerCase().includes(schoolFilter)) &&
+                                (!classFilter || row.class.toLowerCase().includes(classFilter.toLowerCase())) &&
+                                (!totalFilter || row.total.toString().includes(totalFilter));
+                        });
+                    }
+
+                    this.renderTable();
+                }
+
+                renderTable() {
+                    if (this.filteredData.length === 0) {
+                        this.elements.tableBody.innerHTML =
+                            '<tr><td colspan="8" class="status-message">Không tìm thấy kết quả phù hợp</td></tr>';
+                        return;
+                    }
+
+                    const fragment = document.createDocumentFragment();
+
+                    this.filteredData.forEach(row => {
+                        const tr = document.createElement('tr');
+                        tr.innerHTML = `
+                            <td>${row.sbd}</td>
+                            <td>${row.name}</td>
+                            <td>${row.class}</td>
+                            <td>${row.school}</td>
+                            <td><span class="score" style="background-color: ${this.getScoreColor(row.van, 10)}">${row.van}</span></td>
+                            <td><span class="score" style="background-color: ${this.getScoreColor(row.toan, 10)}">${row.toan}</span></td>
+                            <td><span class="score" style="background-color: ${this.getScoreColor(row.anh, 10)}">${row.anh}</span></td>
+                            <td><span class="score" style="background-color: ${this.getScoreColor(row.total, 30)}">${row.total}</span></td>
+                        `;
+                        fragment.appendChild(tr);
+                    });
+
+                    this.elements.tableBody.innerHTML = '';
+                    this.elements.tableBody.appendChild(fragment);
+                }
+
+                getScoreColor(score, maxScore) {
+                    const percentage = Math.round((score / maxScore) * 100);
+
+                    if (this.scoreColorCache.has(percentage)) {
+                        return this.scoreColorCache.get(percentage);
+                    }
+
+                    let r, g, b;
+
+                    if (percentage <= 50) {
+                        r = 220;
+                        g = 80 + Math.round((percentage / 50) * 120);
+                        b = 80;
+                    } else {
+                        r = 220 - Math.round(((percentage - 50) / 50) * 165);
+                        g = 200 - Math.round(((percentage - 50) / 50) * 39);
+                        b = 80 + Math.round(((percentage - 50) / 50) * 25);
+                    }
+
+                    const color = `rgb(${r}, ${g}, ${b})`;
+                    this.scoreColorCache.set(percentage, color);
+                    return color;
+                }
+
+                sortTable(columnIndex) {
+                    this.elements.tableHeaders.forEach(th => {
+                        th.classList.remove('sort-asc', 'sort-desc');
+                    });
+
+                    const currentHeader = this.elements.tableHeaders[columnIndex];
+
+                    if (this.currentSort.column === columnIndex) {
+                        this.currentSort.direction = this.currentSort.direction === 'asc' ? 'desc' : 'asc';
+                    } else {
+                        this.currentSort.direction = 'asc';
+                        this.currentSort.column = columnIndex;
+                    }
+
+                    currentHeader.classList.add(`sort-${this.currentSort.direction}`);
+
+                    const sortKeys = ['sbd', 'name', 'class', 'school', 'van', 'toan', 'anh', 'total'];
+                    const sortKey = sortKeys[columnIndex];
+                    const isNumeric = columnIndex >= 4;
+                    const direction = this.currentSort.direction === 'asc' ? 1 : -1;
+
+                    this.filteredData.sort((a, b) => {
+                        const aVal = a[sortKey];
+                        const bVal = b[sortKey];
+
+                        if (isNumeric) {
+                            return (aVal - bVal) * direction;
+                        }
+                        return aVal.localeCompare(bVal, 'vi') * direction;
+                    });
+
+                    this.renderTable();
+                }
+
+                showError(message) {
+                    this.elements.tableBody.innerHTML =
+                        `<tr><td colspan="8" class="status-message status-error">${message}</td></tr>`;
+                }
+            }
+
+            new StudentResultsTable();
+        });
+    </script>
+</body>
+
+</html>

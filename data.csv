@@ -1,0 +1,595 @@
+SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng điểm
+260001,Đào Nhật Thái An,9/3,Võ Đăng Dược,6.5,9.0,5.5,21.0
+260002,Huỳnh Lê Phước An,9/3,Đoàn Trần Nghiệp,8.0,8.25,8.5,24.75
+260003,Huỳnh Nguyễn Thanh An,9/3,Võ Đăng Dược,9.0,10.0,9.5,28.5
+260004,Nguyễn Kiên An,9/1,Nguyễn Văn Thiều,4.0,5.5,4.0,13.5
+260005,Nguyễn Thị Phương An,9/1,Nguyễn Thị Bảy,8.5,8.75,6.75,24.0
+260006,Nguyễn Thị Thùy An,9/4,Nguyễn Văn Thiều,6.5,6.5,3.5,16.5
+260007,Phạm Ngọc An An,9/3,Nguyễn Thanh Sơn,7.0,8.5,5.75,21.25
+260008,Phan Tấn An,9/6,Nguyễn Văn Thiều,7.0,8.25,8.0,23.25
+260009,Trần Tuấn An,9/2,Võ Đăng Dược,7.5,10.0,7.5,25.0
+260010,Dương Ngọc Thái Anh,9/1,Phường 3,6.25,6.5,6.75,19.5
+260011,Đỗ Kim Anh,9/3,Nguyễn Đắc Thắng,7.75,8.75,5.75,22.25
+260012,Giản Thị Lan Anh,9/4,Nguyễn Thanh Sơn,6.0,5.75,5.5,17.25
+260013,Lê Nhật Anh,9/3,Nguyễn Văn Thiều,5.75,3.25,3.0,12.0
+260014,Lê Thị Văn Anh,9/5,Võ Đăng Dược,9.25,8.75,8.5,26.5
+260015,Ngô Hoàng Anh,9/2,Nguyễn Văn Thiều,7.25,4.5,5.5,17.25
+260016,Nguyễn Ngọc Văn Anh,9/3,Nguyễn Văn Thiều,6.0,5.0,5.75,16.75
+260017,Nguyễn Thị Mỹ Anh,9/5,Nguyễn Văn Thiều,6.25,7.0,6.5,19.75
+260018,Nguyễn Trần Quỳnh Anh,9/2,Nguyễn Thanh Sơn,7.5,7.75,7.5,22.75
+260019,Nguyễn Trần Quỳnh Anh,9/3,Đoàn Trần Nghiệp,9.25,10.0,8.75,28.0
+260020,Nguyễn Trọng Anh,9/4,Nguyễn Văn Thiều,5.75,9.0,8.0,22.75
+260021,Phan Ngọc Lan Anh,9/4,Võ Đăng Dược,8.75,8.0,6.75,23.5
+260022,Tô Hồng Anh,9/1,Nguyễn Đắc Thắng,7.0,6.0,9.25,22.25
+260023,Tô Phạm Quỳnh Anh,9/4,Nguyễn Văn Thiều,8.0,8.25,6.75,23.0
+260024,Trần Nguyễn Phương Anh,9/1,Nguyễn Văn Thiều,7.75,9.0,9.75,26.5
+260025,Võ Minh Anh,9/4,Nguyễn Văn Thiều,7.75,7.75,10.0,25.5
+260026,Nguyễn Hoàng Thanh Ân,9/4,Nguyễn Văn Thiều,7.75,8.5,6.75,23.0
+260027,Nguyễn Ngọc Thùy Ân,9/1,Nguyễn Văn Thiều,8.75,10.0,9.25,28.0
+260028,Phan Trần Bảo Ân,9/1,Nguyễn Thanh Sơn,4.75,5.25,3.0,13.0
+260029,Đỗ Tấn Bảo,9/3,Nguyễn Thị Bảy,8.5,9.5,9.25,27.75
+260030,Huỳnh Chí Bảo,9/1,Nguyễn Văn Thiều,4.5,4.75,4.25,13.5
+260031,Huỳnh Huy Gia Bảo,9/3,Nguyễn Thanh Sơn,4.75,4.0,2.75,11.5
+260032,Lê Quốc Bảo,9/3,Nguyễn Đắc Thắng,5.5,7.75,6.0,19.25
+260033,Lưu Gia Bảo,9/3,Nguyễn Đắc Thắng,8.25,8.75,8.75,25.75
+260034,Nguyễn Gia Bảo,9/1,Nguyễn Đắc Thắng,7.25,6.75,6.0,20.0
+260035,Nguyễn Lê Gia Bảo,9/2,Nguyễn Đắc Thắng,6.33,6.5,6.75,19.58
+260036,Nguyễn Thái Bảo,9/1,Nguyễn Thị Bảy,8.5,8.75,7.0,24.25
+260037,Trần Chí Bảo,9/4,Võ Đăng Dược,5.75,5.75,4.5,16.0
+260038,Trần Gia Bảo,9/6,Nguyễn Văn Thiều,8.25,6.75,8.75,23.75
+260039,Trần Thế Bảo,9/1,Nguyễn Đắc Thắng,6.33,8.75,5.25,20.33
+260040,Lê Trần Khánh Bằng,9/2,Võ Đăng Dược,8.25,8.25,6.75,23.25
+260041,Nguyễn Hữu Bằng,9/4,Võ Đăng Dược,6.5,9.25,4.5,20.25
+260042,Nguyễn Việt Bí,9/1,Nguyễn Thị Bảy,7.5,6.0,3.0,16.5
+260043,Phan Trần Ngọc Bích,9/3,Nguyễn Thị Bảy,7.5,7.0,7.75,22.25
+260044,Ngô Công Bình,9/6,Nguyễn Văn Thiều,7.58,9.75,8.25,25.58
+260045,Phan Thanh Bình,9/3,Nguyễn Văn Thiều,5.75,7.5,5.0,18.25
+260046,Trần Thanh Bình,9/1,Nguyễn Văn Thiều,6.33,4.5,2.5,13.33
+260047,Đào Hoàng Thái Châu,9/3,Nguyễn Thị Bảy,6.75,7.25,8.25,22.25
+260048,Huỳnh Bảo Châu,9/4,Nguyễn Đắc Thắng,7.5,9.0,8.25,24.75
+260049,Nguyễn Thị Bảo Châu,9/1,Nguyễn Văn Thiều,8.75,9.0,7.75,25.5
+260050,Trần Ngọc Minh Châu,9/1,Đoàn Trần Nghiệp,9.25,9.5,9.0,27.75
+260051,Trần Thị Ngọc Châu,9/3,Nguyễn Đắc Thắng,7.0,9.25,6.25,22.5
+260052,Lâm Thị Mai Chi,9/3,Đoàn Trần Nghiệp,6.75,7.0,6.75,20.5
+260053,Lê Thị Kim Chi,9/5,Võ Đăng Dược,7.25,8.25,5.75,21.25
+260054,Trương Trịnh Kim Chi,9/3,Võ Đăng Dược,7.75,8.25,7.25,23.25
+260055,Nguyễn Thị Chúc,9/5,Võ Đăng Dược,8.25,10.0,7.75,26.0
+260056,Lê Duy Chương,9/4,Võ Đăng Dược,8.25,9.0,8.75,26.0
+260057,Hồ Diễm Cúc,9/2,Võ Đăng Dược,6.75,7.75,4.25,18.75
+260058,Châu Chí Cường,9/1,Nguyễn Thanh Sơn,6.25,8.25,7.25,21.75
+260059,Dương Nhật Cường,9/4,Nguyễn Đắc Thắng,6.25,5.75,6.5,18.5
+260060,Nguyễn Ngọc Quốc Cường,9/6,Nguyễn Văn Thiều,7.75,6.5,8.0,22.25
+260061,Trần Nhật Cường,9/2,Đoàn Trần Nghiệp,7.25,6.75,6.75,20.75
+260062,Đào Thanh Danh,9/1,Võ Đăng Dược,7.25,9.25,8.0,24.5
+260063,Đỗ Thành Danh,9/2,Nguyễn Thanh Sơn,7.75,7.75,8.25,23.75
+260064,Huỳnh Thành Danh,9/3,Võ Đăng Dược,7.5,9.25,7.75,24.5
+260065,Nguyễn Thành Danh,9/2,Nguyễn Đắc Thắng,5.25,7.25,4.25,16.75
+260066,Huỳnh Nguyễn Ngọc Diễm,9/1,Nguyễn Thị Bảy,9.25,9.0,6.75,25.0
+260067,Lê Thị Hồng Diễm,9/4,Đoàn Trần Nghiệp,8.5,10.0,9.5,28.0
+260068,Đặng Thị Kim Diệu,9/1,Nguyễn Thanh Sơn,7.25,5.5,6.0,18.75
+260069,Huỳnh Thị Xuân Diệu,9/1,Nguyễn Đắc Thắng,8.5,9.5,9.5,27.5
+260070,Nguyễn Thị Ngọc Diệu,9/5,Nguyễn Văn Thiều,6.25,7.75,5.25,19.25
+260071,Nguyễn Thị Thu Diệu,9/2,Nguyễn Văn Thiều,5.75,6.0,5.0,16.75
+260072,Nguyễn Ngọc Phương Du,9/1,Nguyễn Văn Thiều,5.75,8.5,7.5,21.75
+260073,Châu Quốc Duy,9/4,Nguyễn Văn Thiều,8.75,8.75,9.0,26.5
+260074,Nguyễn Hoàng Bảo Duy,9/5,Nguyễn Văn Thiều,7.5,7.75,6.25,21.5
+260075,Nguyễn Vũ Duy,9/2,Đoàn Trần Nghiệp,6.5,9.0,5.25,20.75
+260076,Trần Khánh Duy,9/3,Nguyễn Văn Thiều,4.75,5.0,2.75,12.5
+260077,Trần Nguyễn Khánh Duy,9/5,Nguyễn Văn Thiều,8.75,8.25,9.0,26.0
+260078,Trần Thành Khánh Duy,9/4,Võ Đăng Dược,8.5,9.0,6.25,23.75
+260079,Võ Lê Nhật Duy,9/1,Nguyễn Văn Thiều,8.25,8.0,8.25,24.5
+260080,Võ Ngọc Đăng Duy,9/2,Nguyễn Văn Thiều,9.25,9.5,9.5,28.25
+260081,Đỗ Ngọc Mỹ Duyên,9/3,Nguyễn Đắc Thắng,7.5,8.5,7.25,23.25
+260082,Lê Thị Thùy Duyên,9/4,Nguyễn Văn Thiều,8.0,7.75,6.5,22.25
+260083,Nguyễn Ngọc Kiều Duyên,9/2,Nguyễn Thanh Sơn,9.5,8.5,8.25,26.25
+260084,Nguyễn Thị Mỹ Duyên,9/2,Nguyễn Đắc Thắng,8.75,8.75,8.5,26.0
+260085,Trần Thị Mỹ Duyên,9/2,Nguyễn Đắc Thắng,6.0,4.5,4.5,15.0
+260086,Trần Thị Mỹ Duyên,9/3,Nguyễn Đắc Thắng,8.0,7.0,7.75,22.75
+260087,Giàn Thái Dương,9/1,Nguyễn Thanh Sơn,8.0,7.0,7.0,22.0
+260088,Nguyễn Thị Thùy Dương,9/2,Nguyễn Văn Thiều,8.75,9.0,9.75,27.5
+260089,Lê Hoàng Gia Đại,9/2,Nguyễn Thanh Sơn,9.0,9.25,7.25,25.5
+260090,Trần Linh Đan,9/2,Nguyễn Văn Thiều,9.0,9.25,8.75,27.0
+260091,Huỳnh Quốc Đạt,9/1,Nguyễn Thị Bảy,7.5,7.25,6.5,21.25
+260092,Lê Thiên Đạt,9/2,Nguyễn Đắc Thắng,6.0,5.25,5.25,16.5
+260093,Nguyễn Thành Phát Đạt,9/2,Nguyễn Thanh Sơn,6.0,4.5,2.5,13.0
+260094,Đoàn Minh Đăng,9/4,Nguyễn Đắc Thắng,6.75,4.75,5.5,17.0
+260095,Trương Khánh Đăng,9/3,Nguyễn Văn Thiều,8.0,8.5,6.5,23.0
+260096,Võ Hải Đăng,9/1,Nguyễn Thị Bảy,5.75,7.75,6.25,19.75
+260097,Võ Hải Đăng,9/1,Nguyễn Văn Thiều,8.75,9.5,8.0,26.25
+260098,Võ Ngọc Hải Đăng,9/3,Nguyễn Văn Thiều,5.75,6.5,4.5,16.75
+260099,Nguyễn Quốc Định,9/1,Nguyễn Đắc Thắng,5.75,5.25,4.75,15.75
+260100,Đỗ Lê Tâm Đoan,9/2,Nguyễn Văn Thiều,7.25,6.0,7.75,21.0
+260101,Lê Ngô Á Đông,9/2,Nguyễn Văn Thiều,7.0,4.75,6.25,18.0
+260102,Lưu Minh Đức,9/3,Nguyễn Văn Thiều,5.75,4.0,4.5,14.25
+260103,Nguyễn Duy Đức,9/3,Nguyễn Văn Thiều,8.5,7.0,8.75,24.25
+260104,Nguyễn Hữu Quang Đức,9/2,Nguyễn Đắc Thắng,6.75,6.5,6.5,19.75
+260105,Hồ Thị Trúc Giang,9/4,Nguyễn Thanh Sơn,7.0,4.75,4.75,16.5
+260106,Huỳnh Ngọc Thanh Giang,9/2,Võ Đăng Dược,9.0,8.75,8.25,26.0
+260107,Nguyễn Ngọc Hương Giang,9/6,Nguyễn Văn Thiều,6.75,6.0,5.75,18.5
+260108,Phan Ngọc Giang,9/3,Nguyễn Thanh Sơn,5.5,5.0,5.5,16.0
+260109,Phan Văn Trưởng Giang,9/5,Nguyễn Văn Thiều,7.25,8.75,8.75,24.75
+260110,Đoàn Thanh Giáp,9/5,Võ Đăng Dược,6.25,9.0,8.5,23.75
+260111,Lê Thị Ngọc Giàu,9/4,Nguyễn Thanh Sơn,7.58,8.25,8.5,24.33
+260112,Nguyễn Thị Út Giàu,9/4,Võ Đăng Dược,8.5,9.5,8.25,26.25
+260113,Lê Ngọc Thu Hà,9/1,Nguyễn Văn Thiều,8.75,8.75,10.0,27.5
+260114,Ngô Bùi Quang Hà,9/5,Nguyễn Văn Thiều,6.5,6.5,4.0,17.0
+260115,Võ Ngọc Thái Hà,9/6,Nguyễn Văn Thiều,8.75,8.75,8.0,25.5
+260116,Trần Thị Tuyết Hạnh,9/4,Đoàn Trần Nghiệp,8.25,8.75,7.75,24.75
+260117,Hồ Minh Hào,9/5,Võ Đăng Dược,7.75,9.25,6.75,23.75
+260118,Lâm Quốc Hào,9/3,Nguyễn Thanh Sơn,8.5,7.0,8.25,23.75
+260119,Lê Nhật Hào,9/4,Võ Đăng Dược,6.25,9.25,5.0,20.5
+260120,Ngô Quốc Hào,9/3,Nguyễn Văn Thiều,8.0,8.75,7.75,24.5
+260121,Nguyễn Anh Hào,9/2,Nguyễn Văn Thiều,6.0,6.5,4.25,16.75
+260122,Trần Huy Hào,9/4,Nguyễn Đắc Thắng,5.5,5.5,5.5,16.5
+260123,Huỳnh Ngọc Hân,9/4,Võ Đăng Dược,7.25,9.0,6.5,22.75
+260124,Lê Bửu Gia Hân,9/3,Nguyễn Thanh Sơn,9.5,10.0,9.5,29.0
+260125,Lê Ngọc Hân,9/3,Nguyễn Thanh Sơn,6.0,8.75,6.75,21.5
+260126,Lê Nguyễn Ngọc Hân,9/2,Nguyễn Văn Thiều,8.0,6.5,8.5,23.0
+260127,Nguyễn Ngọc Hân,9/6,Nguyễn Văn Thiều,7.25,7.75,7.0,22.0
+260128,Nguyễn Phạm Mỹ Hân,9/4,Nguyễn Đắc Thắng,6.75,5.25,5.75,17.75
+260129,Nguyễn Thị Ngọc Hân,9/2,Nguyễn Thị Bảy,8.5,7.5,7.0,23.0
+260130,Nguyễn Thị Ngọc Hân,9/3,Nguyễn Thanh Sơn,5.5,9.0,7.0,21.5
+260131,Trần Ngọc Hân,9/3,Nguyễn Thanh Sơn,4.75,7.5,2.25,14.5
+260132,Trần Ngọc Hân,9/2,Nguyễn Đắc Thắng,6.25,5.5,5.75,17.5
+260133,Nguyễn Minh Hậu,9/2,Nguyễn Thị Bảy,6.0,6.0,3.0,15.0
+260134,Nguyễn Trung Hậu,9/4,Nguyễn Đắc Thắng,6.5,5.25,5.0,16.75
+260135,Ông Thị Thanh Hậu,9/3,Võ Đăng Dược,8.0,9.0,8.5,25.5
+260136,Lê Ngọc Hiền,9/3,Nguyễn Văn Thiều,5.5,6.5,6.0,18.0
+260137,Võ Đăng Hiền,9/5,Nguyễn Văn Thiều,5.75,7.75,7.0,20.5
+260138,Huỳnh Tiến Hiếu,9/2,Nguyễn Đắc Thắng,8.25,8.75,7.5,24.5
+260139,Nguyễn Trung Hiếu,9/2,Nguyễn Văn Thiều,7.0,6.25,7.75,21.0
+260140,Nguyễn Lê Hòa,9/2,Nguyễn Thanh Sơn,7.25,6.75,8.0,22.0
+260141,Lê Quốc Huy Hoàng,9/1,Nguyễn Đắc Thắng,6.5,7.5,5.75,19.75
+260142,Bùi Thị Cẩm Hồng,9/4,Nguyễn Đắc Thắng,8.25,7.0,6.25,21.5
+260143,Lưu Trần Như Huệ,9/5,Võ Đăng Dược,7.5,9.25,8.0,24.75
+260144,Bùi Kiến Huy,9/4,Nguyễn Thanh Sơn,5.25,4.75,2.25,12.25
+260145,Huỳnh Gia Huy,9/4,Võ Đăng Dược,6.75,8.0,7.25,22.0
+260146,Huỳnh Hữu Huy,9/2,Đoàn Trần Nghiệp,8.0,9.5,8.0,25.5
+260147,Huỳnh Phước Đăng Huy,9/3,Nguyễn Đắc Thắng,5.75,6.75,3.0,15.5
+260148,Lưu Gia Huy,9/3,Nguyễn Văn Thiều,9.25,9.25,8.25,26.75
+260149,Ngô Thanh Huy,9/3,Nguyễn Thanh Sơn,9.25,10.0,9.25,28.5
+260150,Nguyễn Mỹ Huyền,9/1,Võ Đăng Dược,6.25,10.0,9.5,25.75
+260151,Nguyễn Thị Mỹ Huyền,9/3,Nguyễn Thanh Sơn,9.75,8.25,9.75,27.75
+260152,Trương Thị Cẩm Huyền,9/3,Nguyễn Đắc Thắng,7.0,7.0,6.75,20.75
+260153,Trần Ngọc Như Huỳnh,9/1,Nguyễn Thanh Sơn,9.0,9.0,8.75,26.75
+260154,Nguyễn Đăng Hưng,9/1,Nguyễn Văn Thiều,8.5,8.75,6.75,24.0
+260155,Nguyễn Thị Ngọc Hưng,9/3,Nguyễn Thanh Sơn,8.25,9.5,9.5,27.25
+260156,Huỳnh Thị Ngọc Hưng,9/4,Nguyễn Thanh Sơn,8.75,8.75,8.75,26.25
+260157,Lưu Thị Thu Hương,9/3,Nguyễn Đắc Thắng,7.5,7.0,6.75,21.25
+260158,Nguyễn Ngọc Quỳnh Hương,9/1,Nguyễn Thị Bảy,7.5,7.0,7.5,22.0
+260159,Nguyễn Ngọc Thanh Hương,9/4,Nguyễn Đắc Thắng,8.25,7.25,8.0,23.5
+260160,Nguyễn Thị Diễm Hương,9/2,Nguyễn Thị Bảy,8.25,7.5,5.25,21.0
+260161,Nguyễn Thị Quỳnh Hương,9/1,Võ Đăng Dược,7.25,6.75,7.5,21.5
+260162,Trần Thị Quỳnh Hương,9/5,Võ Đăng Dược,7.25,9.25,8.5,25.0
+260163,Trần Trọng Kha,9/1,Nguyễn Thanh Sơn,7.0,8.0,9.25,24.25
+260164,Đinh Hữu Duy Khang,9/2,Nguyễn Đắc Thắng,7.5,7.5,8.25,23.25
+260165,Đỗ Đại Khang,9/2,Nguyễn Thanh Sơn,9.0,9.25,9.75,28.0
+260166,Hồ Bảo Khang,9/2,Đoàn Trần Nghiệp,8.0,6.75,8.0,22.75
+260167,Huỳnh Tuấn Khang,9/6,Nguyễn Văn Thiều,8.5,9.0,7.0,24.5
+260168,Lê Nguyễn Phúc Khang,9/6,Nguyễn Văn Thiều,8.5,8.5,6.25,23.25
+260169,Lê Tấn Khang,9/2,Nguyễn Đắc Thắng,4.5,2.75,2.5,9.75
+260170,Nguyễn Đức Khang,9/1,Võ Đăng Dược,6.75,8.5,6.75,22.0
+260171,Phạm Duy Khang,9/3,Nguyễn Văn Thiều,7.75,8.75,9.0,25.5
+260172,Tô La Nhật Khang,9/1,Nguyễn Thị Bảy,7.25,8.75,9.5,25.5
+260173,Trương Quang Nhất Khang,9/4,Nguyễn Đắc Thắng,7.5,6.25,4.25,18.0
+260174,Huỳnh Tuấn Khanh,9/4,Đoàn Trần Nghiệp,7.5,8.75,5.75,22.0
+260175,Lê Nguyễn Minh Khanh,9/3,Nguyễn Đắc Thắng,7.5,8.0,7.0,22.5
+260176,Lê Quốc Khánh,9/6,Nguyễn Văn Thiều,5.25,6.75,3.25,15.25
+260177,Lưu Hoàng Khánh,9/4,Võ Đăng Dược,7.17,9.0,7.25,23.42
+260178,Phạm Duy Khánh,9/3,Đoàn Trần Nghiệp,5.5,6.0,4.5,16.0
+260179,Phạm Nguyễn Quốc Khánh,9/1,Nguyễn Thanh Sơn,7.92,8.0,6.0,21.92
+260180,Lê Nguyễn Minh Khoa,9/4,Nguyễn Đắc Thắng,7.0,7.25,5.75,20.0
+260181,Nguyễn Đăng Khoa,9/2,Nguyễn Đắc Thắng,8.25,8.75,5.75,22.75
+260182,Nguyễn Ngọc Kim Khoa,9/4,Nguyễn Văn Thiều,7.0,8.0,6.75,21.75
+260183,Võ Cao Đăng Khoa,9/4,Nguyễn Văn Thiều,7.5,9.0,9.0,25.5
+260184,Đỗ Tuấn Kiệt,9/6,Nguyễn Văn Thiều,4.25,5.75,3.75,13.75
+260185,Trương Gia Kiệt,9/5,Võ Đăng Dược,5.5,7.25,9.0,21.75
+260186,Lê Hoàng Thiên Kim,9/2,Nguyễn Văn Thiều,8.75,9.0,10.0,27.75
+260187,Nguyễn Ngọc Thiên Kim,9/3,Đoàn Trần Nghiệp,9.25,9.5,8.5,27.25
+260188,Nguyễn Hoàng Xuân Lạc,9/6,Nguyễn Văn Thiều,6.75,7.25,6.0,20.0
+260189,Lê Dương Tường Lam,9/6,Nguyễn Văn Thiều,7.25,7.0,6.0,20.25
+260190,Lê Nguyễn Thanh Lam,9/1,Võ Đăng Dược,5.5,4.5,4.75,14.75
+260191,Huỳnh Bảo Lâm,9/1,Nguyễn Văn Thiều,7.75,9.5,7.5,24.75
+260192,Lê Nguyễn Hồng Lâm,9/2,Nguyễn Thanh Sơn,8.0,8.0,8.75,24.75
+260193,Nguyễn Hoàng Tấn Lâm,9/1,Nguyễn Văn Thiều,8.5,7.75,8.25,24.5
+260194,Nguyễn Thanh Lâm,9/5,Võ Đăng Dược,7.5,9.0,8.5,25.0
+260195,Trần Phước Bảo Lâm,9/1,Nguyễn Văn Thiều,6.5,5.5,6.75,18.75
+260196,Huỳnh Lê Phúc Lập,9/1,Võ Đăng Dược,7.25,8.75,7.75,23.75
+260197,Nguyễn Ngọc Quỳnh Lê,9/4,Nguyễn Văn Thiều,6.25,5.75,4.0,16.0
+260198,Lâm Khánh Linh,9/3,Nguyễn Đắc Thắng,7.25,7.75,7.75,22.75
+260199,Lê Hà Phương Linh,9/4,Nguyễn Văn Thiều,4.5,8.5,5.75,18.75
+260200,Lê Nguyễn Trúc Linh,9/1,Nguyễn Thị Bảy,8.5,8.0,7.25,23.75
+260201,Nguyễn Ngọc Khánh Linh,9/2,Võ Đăng Dược,7.0,5.25,4.5,16.75
+260202,Nguyễn Thị Trúc Linh,9/3,Nguyễn Thị Bảy,7.0,6.25,6.25,19.5
+260203,Phạm Thị Mỹ Linh,9/5,Võ Đăng Dược,5.5,4.75,5.75,16.0
+260204,Trần Nguyễn Khánh Linh,9/6,Nguyễn Văn Thiều,6.75,7.0,8.25,22.0
+260205,Trần Thị Hồng Linh,9/2,Nguyễn Thanh Sơn,7.25,8.5,6.25,22.0
+260206,Trịnh Huỳnh Nhã Linh,9/4,Nguyễn Đắc Thắng,8.5,9.25,8.75,26.5
+260207,Nguyễn Thanh Kim Loan,9/1,Nguyễn Thanh Sơn,8.25,8.5,8.0,24.75
+260208,Trần Thị Hồng Loan,9/3,Võ Đăng Dược,6.25,8.5,6.25,21.0
+260209,Nguyễn Hoàng Phi Long,9/2,Nguyễn Đắc Thắng,4.5,5.0,6.0,15.5
+260210,Đặng Văn Lộc,9/4,Nguyễn Thanh Sơn,3.75,3.5,3.25,10.5
+260211,Phạm Thanh Lộc,9/1,Nguyễn Đắc Thắng,6.5,7.25,4.5,18.25
+260212,Trần Duy Lợi,9/4,Võ Đăng Dược,6.75,8.5,6.5,21.75
+260213,Nguyễn Minh Luân,9/2,Nguyễn Văn Thiều,7.0,6.75,7.5,21.25
+260214,Nguyễn Vũ Luân,9/3,Nguyễn Đắc Thắng,5.75,5.5,3.25,14.5
+260215,Lâm Ngọc Thảo Ly,9/2,Nguyễn Thanh Sơn,7.75,7.25,8.75,24.75
+260216,Trần Thảo Ly,9/4,Nguyễn Thanh Sơn,4.5,3.5,3.75,11.75
+260217,Lê Thị Phương Mai,9/3,Nguyễn Thanh Sơn,5.75,5.25,3.75,14.75
+260218,Nguyễn Xuân Mai,9/1,Nguyễn Văn Thiều,7.5,9.25,9.75,26.5
+260219,Trần Nguyễn Phương Mai,9/4,Nguyễn Văn Thiều,8.75,9.5,8.5,26.75
+260220,Ngô Đức Mạnh,9/1,Nguyễn Thị Bảy,6.25,8.25,4.75,19.25
+260221,Nguyễn Minh Mẫn,9/3,Võ Đăng Dược,5.5,3.75,6.0,15.25
+260222,Lê Gia Minh,9/2,Tân Phú,5.0,8.0,7.75,20.75
+260223,Ngô Lê Hoàng Minh,9/6,Nguyễn Văn Thiều,8.0,8.5,7.5,24.0
+260224,Nguyễn Nhật Khánh Minh,9/4,Nguyễn Văn Thiều,7.25,8.5,8.75,24.5
+260225,Phạm Hoàng Hải Minh,9/3,Tân Thới,6.0,8.25,6.0,20.25
+260226,Phạm Huỳnh Nhật Minh,9/6,Nguyễn Văn Thiều,7.75,9.5,8.75,26.0
+260227,Trần Lê Nhật Minh,9/2,Nguyễn Văn Thiều,7.25,9.0,8.0,24.25
+260228,Trương Gia Minh,9/5,Nguyễn Văn Thiều,5.5,5.0,3.0,13.5
+260229,Huỳnh Ngọc Bảo My,9/1,Nguyễn Thị Bảy,7.5,9.75,8.0,25.25
+260230,Lý Ái My,9/4,Nguyễn Văn Thiều,8.0,8.75,7.75,24.5
+260231,Nguyễn Ngọc Hà My,9/4,Nguyễn Thanh Sơn,7.5,7.25,8.5,23.25
+260232,Nguyễn Trần Diễm My,9/6,Nguyễn Văn Thiều,8.25,8.5,8.0,24.75
+260233,Phạm Hà My,9/5,Nguyễn Văn Thiều,6.25,6.75,4.75,17.75
+260234,Phạm Lê Phương My,9/2,Võ Đăng Dược,6.5,8.5,6.5,21.5
+260235,Phan Nguyễn Trà My,9/1,Nguyễn Đắc Thắng,6.5,5.5,4.75,16.75
+260236,Huỳnh Ngọc Mỹ,9/1,Nguyễn Văn Thiều,7.25,8.75,7.25,23.25
+260237,Huỳnh Thị Ngọc Mỹ,9/3,Nguyễn Văn Thiều,8.0,8.25,8.0,24.25
+260238,Lê Minh Nhật Nam,9/4,Nguyễn Thanh Sơn,5.75,6.25,5.25,17.25
+260239,Nguyễn Hoàng Nam,9/4,Nguyễn Thanh Sơn,6.75,7.5,7.0,21.25
+260240,Nguyễn Minh Nam,9/1,Nguyễn Văn Thiều,5.5,7.25,4.75,17.5
+260241,Nguyễn Trọng Nam,9/1,Nguyễn Thị Bảy,5.0,8.75,4.0,17.75
+260242,Lê Thị Yến Nga,9/3,Nguyễn Văn Thiều,8.5,9.0,7.75,25.25
+260243,Huỳnh Thanh Ngã,9/4,Nguyễn Đắc Thắng,9.25,9.5,9.5,28.25
+260244,Đặng Hoàng Kim Ngân,9/3,Võ Đăng Dược,6.25,8.75,8.0,23.0
+260245,Đặng Thị Kim Ngân,9/2,Nguyễn Đắc Thắng,6.75,6.5,5.75,19.0
+260246,Lâm Ngọc Ngân,9/2,Nguyễn Thanh Sơn,6.25,8.75,8.0,23.0
+260247,Lê Ánh Thùy Ngân,9/1,Nguyễn Văn Thiều,7.0,6.25,7.25,20.5
+260248,Lê Hồng Ngân,9/1,Nguyễn Thị Bảy,7.0,6.0,4.75,17.75
+260249,Lê Nguyễn Kim Ngân,9/3,Nguyễn Văn Thiều,8.5,9.25,7.25,25.0
+260250,Lê Thị Ngọc Ngân,9/2,Võ Đăng Dược,6.0,8.75,7.0,21.75
+260251,Lê Thị Ngọc Ngân,9/5,Nguyễn Văn Thiều,7.25,7.0,4.0,18.25
+260252,Mai Thị Kim Ngân,9/3,Nguyễn Thị Bảy,5.5,5.25,4.0,14.75
+260253,Ngô Huỳnh Kim Ngân,9/1,Nguyễn Văn Thiều,8.0,9.0,9.25,26.25
+260254,Nguyễn Ngọc Khánh Ngân,9/2,Nguyễn Văn Thiều,8.75,4.75,6.75,20.25
+260255,Nguyễn Ngọc Thanh Ngân,9/2,Nguyễn Văn Thiều,8.25,7.5,6.5,22.25
+260256,Nguyễn Thị Mỹ Ngân,9/1,Võ Đăng Dược,8.5,10.0,9.25,27.75
+260257,Phạm Thị Ngọc Ngân,9/6,Nguyễn Văn Thiều,8.5,9.75,9.25,27.5
+260258,Phạm Thị Tuyết Ngân,9/1,Võ Đăng Dược,5.75,7.75,4.75,18.25
+260259,Phan Đặng Kim Ngân,9/2,Võ Đăng Dược,8.25,10.0,8.75,27.0
+260260,Phan Ngọc Kim Ngân,9/2,Nguyễn Văn Thiều,6.5,7.0,6.0,19.5
+260261,Sứ Ngọc Kim Ngân,9/4,Võ Đăng Dược,6.75,8.25,8.75,23.75
+260262,Trần Thị Thanh Ngân,9/2,Nguyễn Thị Bảy,8.75,9.25,7.75,25.75
+260263,Huỳnh Lê Xuân Nghi,9/4,Võ Đăng Dược,7.92,8.75,9.25,25.92
+260264,Lâm Vĩnh Nghi,9/1,Võ Đăng Dược,6.25,8.75,7.0,22.0
+260265,Lê Bảo Nghi,9/4,Nguyễn Văn Thiều,8.5,5.75,6.25,20.5
+260266,Nguyễn Ngọc Bảo Nghi,9/5,Võ Đăng Dược,8.0,9.0,7.25,24.25
+260267,Nguyễn Triệu Phương Nghi,9/1,Nguyễn Văn Thiều,7.25,7.75,8.25,23.25
+260268,Trần Huỳnh Xuân Nghi,9/5,Võ Đăng Dược,7.25,7.75,7.0,22.0
+260269,Đặng Hiếu Nghĩa,9/4,Nguyễn Thanh Sơn,9.0,6.25,8.0,23.25
+260270,Hồ Trọng Nghĩa,9/3,Nguyễn Thanh Sơn,7.5,8.5,8.75,24.75
+260271,Lưu Văn Thành Nghĩa,9/1,Nguyễn Đắc Thắng,7.25,7.5,7.5,22.25
+260272,Ngô Trọng Nghĩa,9/3,Võ Đăng Dược,7.75,8.5,6.5,22.75
+260273,Nguyễn Thành Nghĩa,9/3,Nguyễn Thị Bảy,8.5,8.25,7.75,24.5
+260274,Nguyễn Trung Nghĩa,9/3,Nguyễn Văn Thiều,7.5,8.25,5.25,21.0
+260275,Phạm Trọng Nghĩa,9/1,Nguyễn Thanh Sơn,7.5,8.75,7.5,23.75
+260276,Bùi Thị Khánh Ngọc,9/1,Nguyễn Đắc Thắng,7.25,9.0,6.25,22.5
+260277,Lê Dương Hồng Ngọc,9/2,Nguyễn Đắc Thắng,5.75,5.0,4.75,15.5
+260278,Lê Thị Như Ngọc,9/2,Đoàn Trần Nghiệp,8.25,5.0,7.75,21.0
+260279,Ngô Yến Ngọc,9/3,Nguyễn Văn Thiều,8.75,8.5,8.5,25.75
+260280,Nguyễn Lâm Ngọc,9/4,Nguyễn Thanh Sơn,6.75,7.25,5.5,19.5
+260281,Nguyễn Lê Như Ngọc,9/4,Võ Đăng Dược,6.75,8.0,6.25,21.0
+260282,Nguyễn Thị Kim Ngọc,9/1,Nguyễn Thanh Sơn,8.67,9.0,8.75,26.42
+260283,Nguyễn Thị Xuân Ngọc,9/1,Nguyễn Thanh Sơn,8.75,8.5,7.5,24.75
+260284,Phạm Huỳnh Bảo Ngọc,9/3,Nguyễn Văn Thiều,6.5,4.5,4.75,15.75
+260285,Phạm Thị Như Ngọc,9/3,Nguyễn Đắc Thắng,5.5,5.75,5.75,17.0
+260286,Trần Bảo Ngọc,9/2,Võ Đăng Dược,7.75,8.75,5.75,22.25
+260287,Trần Phương Khánh Ngọc,9/3,Võ Đăng Dược,6.25,8.25,5.5,20.0
+260288,Trần Thế Ngọc,9/3,Nguyễn Văn Thiều,5.0,3.75,4.5,13.25
+260289,Trần Thị Yến Ngọc,9/5,Nguyễn Văn Thiều,7.25,7.25,5.5,20.0
+260290,Võ Bảo Ngọc,9/3,Nguyễn Đắc Thắng,6.0,6.5,5.25,17.75
+260291,Võ Hồng Ngọc,9/4,Nguyễn Văn Thiều,7.0,5.75,7.25,20.0
+260292,Võ Văn Ngọc,9/5,Nguyễn Văn Thiều,4.0,3.75,2.75,10.5
+260293,Châu Võ Đông Nguyên,9/4,Nguyễn Thanh Sơn,7.5,9.0,8.25,24.75
+260294,Lê Ngọc Thu Nguyên,9/2,Nguyễn Thị Bảy,7.0,7.0,4.75,18.75
+260295,Phạm Đỗ Dinh Nguyên,9/2,Nguyễn Đắc Thắng,5.75,6.0,5.5,17.25
+260296,Trần Phúc Nguyên,9/1,Nguyễn Văn Thiều,8.5,9.0,8.5,26.0
+260297,Đặng Hoàng Nhân,9/3,Nguyễn Thị Bảy,8.17,8.5,7.5,24.17
+260298,Huỳnh Nguyễn Hoàng Nhân,9/4,Nguyễn Đắc Thắng,6.75,7.5,6.5,20.75
+260299,Huỳnh Thiện Nhân,9/2,Nguyễn Văn Thiều,8.5,9.75,8.75,27.0
+260300,Lê Hoài Nhân,9/2,Nguyễn Thanh Sơn,6.0,6.5,4.75,17.25
+260301,Nguyễn Hồng Thanh Nhân,9/1,Nguyễn Thanh Sơn,5.0,5.25,4.75,15.0
+260302,Nguyễn Thanh Nhân,9/5,Nguyễn Văn Thiều,5.75,7.0,4.5,17.25
+260303,Nguyễn Thị Hoài Nhân,9/1,Nguyễn Thị Bảy,5.75,5.25,5.75,16.75
+260304,Võ Thành Nhân,9/1,Nguyễn Thanh Sơn,5.5,4.0,4.75,14.25
+260305,Trần Thanh Nhân,9/6,Nguyễn Văn Thiều,8.75,8.5,8.0,25.25
+260306,Nguyễn Hoàng Anh Nhật,9/3,Võ Đăng Dược,5.75,9.0,4.75,19.5
+260307,Lê Thị Huyền Nhi,9/1,Võ Đăng Dược,6.5,8.25,7.25,22.0
+260308,Lương Thị Hồng Nhi,9/2,Võ Đăng Dược,7.75,8.25,8.0,24.0
+260309,Nguyễn Huỳnh Yến Nhi,9/4,Nguyễn Đắc Thắng,6.25,7.5,5.75,19.5
+260310,Nguyễn Ngọc Minh Nhi,9/2,Võ Đăng Dược,8.0,9.5,5.0,22.5
+260311,Nguyễn Ngọc Nguyệt Nhi,9/6,Nguyễn Văn Thiều,7.0,6.75,5.75,19.5
+260312,Nguyễn Ngọc Thảo Nhi,9/2,Đoàn Trần Nghiệp,7.5,6.25,8.25,22.0
+260313,Nguyễn Ngọc Yến Nhi,9/3,Đoàn Trần Nghiệp,7.5,7.25,7.75,22.5
+260314,Nguyễn Phạm Y Nhi,9/2,Nguyễn Thị Bảy,8.5,9.0,9.0,26.5
+260315,Nguyễn Thị Yến Nhi,9/2,Võ Đăng Dược,5.25,4.75,4.5,14.5
+260316,Nguyễn Xuân Nhi,9/46,Nguyễn Văn Thiều,6.75,8.5,7.0,22.25
+260317,Phan Thị Yến Nhi,9/1,Võ Đăng Dược,6.25,9.0,9.0,24.25
+260318,Phan Trần Bảo Nhi,9/3,Võ Đăng Dược,6.75,7.75,8.0,22.5
+260319,Võ Thị Ngọc Nhi,9/1,Võ Đăng Dược,7.0,8.5,7.0,22.5
+260320,Bùi Hồng Nhung,9/2,Võ Đăng Dược,6.5,10.0,9.25,25.75
+260321,Huỳnh Hồng Nhung,9/2,Nguyễn Đắc Thắng,7.75,8.75,8.0,24.5
+260322,Nguyễn Thị Tuyết Nhung,9/3,Nguyễn Thanh Sơn,5.5,8.0,7.0,20.5
+260323,Lê Nguyễn Huỳnh Như,9/4,Nguyễn Đắc Thắng,8.75,9.25,9.5,27.5
+260324,Lê Thị Huỳnh Như,9/1,Võ Đăng Dược,7.0,7.75,5.25,20.0
+260325,Nguyễn Huỳnh Như,9/23,Nguyễn Văn Thiều,6.0,4.0,3.5,13.5
+260326,Nguyễn Ngọc Kiều Như,9/2,Nguyễn Thanh Sơn,7.75,6.75,5.0,19.5
+260327,Nguyễn Thị Huỳnh Như,9/5,Võ Đăng Dược,8.0,7.0,7.5,22.5
+260328,Phạm Quỳnh Như,9/5,Võ Đăng Dược,7.0,9.25,8.0,24.25
+260329,Thái Tâm Như,9/45,Nguyễn Văn Thiều,6.5,8.0,6.5,21.0
+260330,Võ Nguyễn Ngọc Quỳnh,9/1,Võ Đăng Dược,5.5,7.25,4.5,17.25
+260331,Trần Minh Nhựt,9/46,Nguyễn Văn Thiều,6.25,5.5,4.5,16.25
+260332,Phạm Huỳnh Phác,9/46,Nguyễn Văn Thiều,6.75,7.5,5.25,19.5
+260333,Đặng Tấn Phát,9/2,Nguyễn Thanh Sơn,6.75,8.75,7.75,23.25
+260334,Huỳnh Tấn Phát,9/2,Nguyễn Đắc Thắng,7.75,8.5,8.25,24.5
+260335,Lâm Bá Tấn Phát,9/3,Nguyễn Đắc Thắng,2.0,4.25,2.25,8.5
+260336,Lê Đặng Công Phát,9/46,Nguyễn Văn Thiều,8.0,8.75,9.25,26.0
+260337,Ngô Nguyễn Minh Phát,9/2,Nguyễn Văn Thiều,6.25,8.25,7.5,22.0
+260338,Ngô Nguyễn Trưởng Phát,9/3,Nguyễn Văn Thiều,6.25,7.75,9.0,23.0
+260339,Ngô Thành Phát,9/5,Nguyễn Văn Thiều,6.25,7.0,7.0,20.25
+260340,Nguyễn Hồng Ngọc Phát,9/2,Nguyễn Đắc Thắng,6.0,4.25,5.75,16.0
+260341,Nguyễn Hữu Phát,9/3,Nguyễn Văn Thiều,8.5,9.0,9.75,27.25
+260342,Nguyễn Tấn Phát,9/2,Đoàn Trần Nghiệp,7.75,7.75,9.25,24.75
+260343,Nguyễn Thành Phát,9/4,Long Bình,4.5,8.25,7.5,20.25
+260344,Nguyễn Thành Phát,9/2,Nguyễn Thanh Sơn,4.75,5.25,4.5,14.5
+260345,Châu Thanh Phong,9/3,Nguyễn Văn Thiều,5.75,7.75,5.0,18.5
+260346,Nguyễn Vũ Thanh Phong,9/1,Nguyễn Văn Thiều,7.5,7.5,7.5,22.5
+260347,Nguyễn Đinh Gia Phú,9/1,Võ Đăng Dược,6.5,8.5,5.0,20.0
+260348,Nguyễn Hồng Phú,9/1,Nguyễn Đắc Thắng,8.25,8.5,7.5,24.25
+260349,Nguyễn Ngọc Sỹ Phú,9/1,Tân Thới,5.75,5.25,6.75,17.75
+260350,Phạm Lâm Hoàng Phú,9/1,Võ Đăng Dược,8.25,9.25,7.5,25.0
+260351,Hoàng Gia Phúc,9/1,Nguyễn Thanh Sơn,8.5,8.5,8.25,25.25
+260352,Huỳnh Tấn Phúc,9/1,Võ Đăng Dược,5.25,7.75,3.0,16.0
+260353,Nguyễn Hoàng Bảo Phúc,9/5,Nguyễn Văn Thiều,7.25,6.5,7.25,21.0
+260354,Phan Hoàng Phúc,9/1,Nguyễn Văn Thiều,8.0,9.5,8.0,25.5
+260355,Trần Hữu Phúc,9/2,Nguyễn Văn Thiều,7.5,4.75,3.75,16.0
+260356,Trần Lê Gia Phúc,9/1,Nguyễn Thanh Sơn,6.25,6.25,8.0,20.5
+260357,Trần Tấn Phúc,9/2,Nguyễn Đắc Thắng,5.5,5.5,3.75,14.75
+260358,Nguyễn Thị Kim Phụng,9/4,Võ Đăng Dược,5.0,3.75,3.5,12.25
+260359,Trần Ngọc Phụng,9/4,Nguyễn Thanh Sơn,9.5,9.25,8.75,27.5
+260360,Nguyễn Phạm Gia Phước,9/2,Nguyễn Văn Thiều,6.25,8.0,6.75,21.0
+260361,Phạm Trọng Phước,9/2,Nguyễn Văn Thiều,7.92,9.75,8.75,26.42
+260362,Trần Hữu Phước,9/6,Nguyễn Văn Thiều,5.25,6.25,5.75,17.25
+260363,Châu Duy Phương,9/5,Nguyễn Văn Thiều,6.25,8.25,7.0,21.5
+260364,Đinh Ngọc Nam Phương,9/3,Nguyễn Thanh Sơn,5.25,9.0,4.0,18.25
+260365,Hà Thị Thu Phương,9/1,Nguyễn Văn Thiều,6.83,8.5,7.0,22.33
+260366,Lê Ngọc Khánh Phương,9/3,Nguyễn Văn Thiều,6.75,8.25,5.75,20.75
+260367,Lý Quỳnh Trúc Phương,9/2,Nguyễn Thanh Sơn,7.25,7.5,8.5,23.25
+260368,Nguyễn Thị Diễm Phương,9/4,Nguyễn Thanh Sơn,5.75,6.0,4.5,16.25
+260369,Nguyễn Thị Lan Phương,9/4,Võ Đăng Dược,6.75,6.5,3.25,16.5
+260370,Nguyễn Xuân Mai Phương,9/4,Nguyễn Thanh Sơn,9.0,8.25,8.0,25.25
+260371,Thái Tứ Nam Phương,9/6,Nguyễn Văn Thiều,9.0,9.0,9.5,27.5
+260372,Võ Thị Quỳnh Phương,9/2,Nguyễn Thanh Sơn,5.75,6.0,4.0,15.75
+260373,Nguyễn Thị Mỹ Phượng,9/5,Nguyễn Văn Thiều,7.25,8.0,8.5,23.75
+260374,Trần Thị Kim Phượng,9/1,Nguyễn Thị Bảy,7.75,6.5,4.75,19.0
+260375,Đoàn Ngọc Quang,9/3,Nguyễn Đắc Thắng,6.0,7.5,3.25,16.75
+260376,Lê Nhật Quang,9/2,Võ Đăng Dược,8.25,10.0,7.75,26.0
+260377,Nguyễn Đăng Quang,9/3,Tân Trung,7.25,9.25,8.0,24.5
+260378,Trương Châu Hải Quốc,9/1,Nguyễn Văn Thiều,7.75,9.0,6.0,22.75
+260379,Bùi Phú Quý,9/1,Nguyễn Văn Thiều,8.5,9.5,8.25,26.25
+260380,Trần Ngọc Đỗ Quyến,9/1,Nguyễn Văn Thiều,7.75,9.0,7.5,24.25
+260381,Nguyễn Võ Thanh Quyền,9/5,Nguyễn Văn Thiều,5.25,6.25,6.0,17.5
+260382,Đoàn Lê Như Quỳnh,9/4,Nguyễn Đắc Thắng,7.75,7.5,7.5,22.75
+260383,Lê Ngọc Như Quỳnh,9/3,Nguyễn Đắc Thắng,7.0,7.75,7.5,22.25
+260384,Nguyễn Thị Như Quỳnh,9/4,Nguyễn Thanh Sơn,9.25,9.0,7.5,25.75
+260385,Trương Ngọc Như Quỳnh,9/5,Nguyễn Văn Thiều,6.75,8.0,5.25,20.0
+260386,Trương Thị Phương Quỳnh,9/1,Nguyễn Thanh Sơn,7.5,7.5,6.0,21.0
+260387,Võ Phước Sang,9/5,Võ Đăng Dược,5.75,5.75,4.0,15.5
+260388,Cao Hoàng Thái Sơn,9/4,Nguyễn Văn Thiều,7.75,6.25,7.0,21.0
+260389,Lê Tấn Ngọc Sơn,9/2,Nguyễn Đắc Thắng,4.75,4.5,4.75,14.0
+260390,Lê Trường Sơn,9/5,Nguyễn Văn Thiều,7.5,10.0,6.5,24.0
+260391,Phạm Tấn Tài,9/1,Nguyễn Đắc Thắng,6.75,7.25,5.75,19.75
+260392,Đào Thanh Tâm,9/1,Võ Đăng Dược,6.75,9.0,6.5,22.25
+260393,Ngô Thanh Tâm,9/3,Nguyễn Thanh Sơn,7.0,9.0,7.25,23.25
+260394,Nguyễn Tấn Tố Tâm,9/4,Võ Đăng Dược,7.0,9.0,8.25,24.25
+260395,Lê Nhật Tân,9/3,Đoàn Trần Nghiệp,5.75,6.5,6.5,18.75
+260396,Lê Nhựt Tân,9/3,Nguyễn Đắc Thắng,5.75,6.25,4.75,16.75
+260397,Nguyễn Nhật Tân,9/1,Nguyễn Văn Thiều,6.25,8.0,6.5,20.75
+260398,Lê Hoàng Thái,9/4,Long Bình,6.75,9.0,6.25,22.0
+260399,Lê Quốc Thái,9/4,Nguyễn Đắc Thắng,7.5,6.5,5.75,19.75
+260400,Phan Thành Thái,9/1,Nguyễn Văn Thiều,6.75,7.75,6.0,20.5
+260401,Trần Hoàng Thái,9/4,Nguyễn Thanh Sơn,6.5,3.75,4.25,14.5
+260402,Võ Minh Thành,9/5,Nguyễn Văn Thiều,8.25,9.75,8.0,26.0
+260403,Huỳnh Phương Thảo,9/3,Nguyễn Đắc Thắng,7.5,6.75,6.25,20.5
+260404,Lý Ngọc Thảo,9/6,Nguyễn Văn Thiều,7.5,7.25,5.25,20.0
+260405,Nguyễn Thị Ngọc Thảo,9/4,Nguyễn Đắc Thắng,7.25,7.5,7.25,22.0
+260406,Nguyễn Thu Thảo,9/1,Nguyễn Thị Bảy,8.0,8.0,6.0,22.0
+260407,Phan Huỳnh Phương Thảo,9/5,Nguyễn Văn Thiều,5.25,5.75,5.5,16.5
+260408,Trần Nhật Thanh Thảo,9/3,Nguyễn Đắc Thắng,5.0,6.0,3.75,14.75
+260409,Trần Thanh Thảo,9/4,Nguyễn Thanh Sơn,9.75,8.5,9.25,27.5
+260410,Trần Văn Thanh Thảo,9/4,Nguyễn Văn Thiều,8.0,8.5,6.75,23.25
+260411,Phạm Thị Hồng Thắm,9/4,Võ Đăng Dược,9.0,7.75,7.25,24.0
+260412,Lê Quốc Thắng,9/4,Nguyễn Đắc Thắng,7.75,7.5,7.25,22.5
+260413,Trương Huỳnh Ngọc Thắm,9/2,Nguyễn Thị Bảy,9.75,10.0,6.75,26.5
+260414,Trương Thị Ái Thi,9/2,Nguyễn Thanh Sơn,8.17,9.75,9.25,27.17
+260415,Lê Phú Thiên,9/2,Nguyễn Văn Thiều,9.5,8.25,8.75,26.5
+260416,Lê Minh Thiện,9/4,Nguyễn Văn Thiều,7.5,7.5,6.0,21.0
+260417,Trần Trung Thiện,9/4,Nguyễn Văn Thiều,6.0,6.75,8.5,21.25
+260418,Cao Văn Thiết,9/4,Nguyễn Văn Thiều,8.5,8.75,8.25,25.5
+260419,Hà Lê Hữu Thịnh,9/4,Võ Đăng Dược,7.25,8.5,6.5,22.25
+260420,Huỳnh Trọng Thịnh,9/4,Võ Đăng Dược,7.25,9.25,7.75,24.25
+260421,Trần Phúc Thịnh,9/4,Nguyễn Văn Thiều,6.25,6.25,6.25,18.75
+260422,Bùi Phí Thông,9/4,Nguyễn Văn Thiều,7.0,8.0,7.25,22.25
+260423,Nguyễn Phước Thái Thông,9/1,Nguyễn Thanh Sơn,5.5,7.0,3.75,16.25
+260424,Châu Ngọc Hoàng Thơ,9/4,Nguyễn Văn Thiều,7.75,7.25,8.75,23.75
+260425,Huỳnh Phạm Anh Thơ,9/4,Võ Đăng Dược,7.75,8.0,7.25,23.0
+260426,Huỳnh Thị Anh Thơ,9/4,Nguyễn Văn Thiều,7.5,6.0,6.0,19.5
+260427,Ngô Huỳnh Anh Thơ,9/4,Nguyễn Văn Thiều,8.75,6.5,4.0,19.25
+260428,Trần Ngọc Anh Thơ,9/4,Nguyễn Văn Thiều,9.5,9.0,7.75,26.25
+260429,Võ Anh Thơ,9/4,Nguyễn Văn Thiều,9.0,9.0,6.5,24.5
+260430,Lê Võ Nhật Thu,9/4,Nguyễn Văn Thiều,8.5,8.0,8.25,24.75
+260431,Nguyễn Hoài Thu,9/4,Nguyễn Văn Thiều,8.25,8.25,6.25,22.75
+260432,Đoàn Ngọc Thuận,9/3,Nguyễn Đắc Thắng,7.75,9.0,8.75,25.5
+260433,Hà Thanh Thuận,9/4,Nguyễn Thanh Sơn,4.75,2.75,3.75,11.25
+260434,Lâm Quốc Thuận,9/4,Võ Đăng Dược,6.5,8.5,7.5,22.5
+260435,Nguyễn Minh Thuận,9/3,Nguyễn Thị Bảy,7.75,8.0,6.25,22.0
+260436,Nguyễn Minh Thuận,9/3,Nguyễn Văn Thiều,6.5,5.75,4.5,16.75
+260437,Nguyễn Thanh Thuỷ,9/2,Nguyễn Thị Bảy,8.25,8.75,5.25,23.25
+260438,Trần Thị Thanh Thủy,9/3,Võ Đăng Dược,6.5,6.5,7.0,20.0
+260439,Hà Thị Thanh Thủy,9/3,Nguyễn Thanh Sơn,7.5,5.25,3.5,16.25
+260440,Huỳnh Lê Diễm Thủy,9/4,Đoàn Trần Nghiệp,9.5,8.75,6.75,25.0
+260441,Nguyễn Thị Diễm Thủy,9/1,Võ Đăng Dược,7.25,8.75,7.5,23.5
+260442,Võ Thị Mộng Thủy,9/2,Võ Đăng Dược,8.0,8.5,7.25,23.75
+260443,Phạm Đăng Thị Ngọc,9/2,Võ Đăng Dược,6.5,8.75,5.25,20.5
+260444,Hồ Thị Anh Thư,9/3,Nguyễn Thanh Sơn,8.75,6.5,5.25,20.5
+260445,Huỳnh Đặng Anh Thư,9/2,Nguyễn Văn Thiều,7.25,8.75,9.75,25.75
+260446,Huỳnh Nguyễn Minh Thư,9/3,Nguyễn Đắc Thắng,7.75,8.5,8.75,25.0
+260447,Lê Phúc Minh Thư,9/1,Võ Đăng Dược,9.25,8.25,9.25,26.75
+260448,Lê Thị Kim Thư,9/1,Nguyễn Thị Bảy,7.25,6.75,3.5,17.5
+260449,Lê Thị Mai Anh Thư,9/2,Nguyễn Thanh Sơn,8.75,6.75,7.5,23.0
+260450,Lê Thị Minh Thư,9/4,Nguyễn Đắc Thắng,8.5,7.75,9.0,25.25
+260451,Lưu Nguyễn Minh Thư,9/1,Nguyễn Thanh Sơn,5.0,6.75,5.0,16.75
+260452,Nguyễn Minh Thư,9/4,Nguyễn Văn Thiều,6.25,7.0,6.25,19.5
+260453,Nguyễn Ngọc Bào Thư,9/3,Nguyễn Văn Thiều,8.25,5.75,4.5,18.5
+260454,Nguyễn Ngọc Minh Thư,9/2,Đoàn Trần Nghiệp,7.25,7.0,6.75,21.0
+260455,Nguyễn Ngọc Minh Thư,9/1,Nguyễn Đắc Thắng,7.25,8.75,7.75,23.75
+260456,Nguyễn Ngọc Minh Thư,9/4,Nguyễn Đắc Thắng,7.0,7.0,6.75,20.75
+260457,Nguyễn Thị Anh Thư,9/4,Võ Đăng Dược,8.5,8.75,8.25,25.5
+260458,Nguyễn Thị Kim Thư,9/1,Đoàn Trần Nghiệp,8.0,8.75,7.5,24.25
+260459,Nguyễn Thị Minh Thư,9/16,Nguyễn Văn Thiều,8.25,8.5,7.5,24.25
+260460,Phạm Huỳnh Anh Thư,9/22,Nguyễn Văn Thiều,7.5,6.75,5.5,19.75
+260461,Trần Kim Minh Thư,9/4,Đoàn Trần Nghiệp,9.75,9.0,9.25,28.0
+260462,Lê Bảo Thy,9/1,Võ Đăng Dược,8.5,8.5,5.75,22.75
+260463,Phạm Nguyễn Phương Thy,9/3,Nguyễn Thanh Sơn,5.25,4.75,4.75,14.75
+260464,Lê Thị Cẩm Tiến,9/3,Nguyễn Thanh Sơn,7.25,5.75,5.0,18.0
+260465,Nguyễn Thị Cẩm Tiến,9/4,Nguyễn Thanh Sơn,4.5,5.75,3.25,13.5
+260466,Bùi Nhật Tiến,9/4,Nguyễn Thanh Sơn,5.25,5.25,3.0,13.5
+260467,Đào Vĩnh Tiến,9/3,Nguyễn Văn Thiều,7.75,6.5,6.5,20.75
+260468,Huỳnh Kim Tiến,9/3,Nguyễn Văn Thiều,7.75,8.25,5.0,21.0
+260469,Huỳnh Thanh Tiến,9/3,Nguyễn Đắc Thắng,5.25,7.75,5.75,18.75
+260470,Phạm Hùng Tiến,9/1,Nguyễn Văn Thiều,7.0,7.25,6.75,21.0
+260471,Phan Thanh Tiến,9/2,Nguyễn Văn Thiều,7.75,8.5,8.5,24.75
+260472,Nguyễn Trung Tín,9/2,Nguyễn Đắc Thắng,3.25,4.25,2.5,10.0
+260473,Nguyễn Kỳ Tinh,9/1,Nguyễn Đắc Thắng,8.5,9.5,8.25,26.25
+260474,Phạm Hữu Toàn,9/1,Nguyễn Đắc Thắng,9.5,10.0,9.5,29.0
+260475,Ngô Thị Thanh Trà,9/2,Tân Phú,8.75,9.0,9.25,27.0
+260476,Nguyễn Phương Trang,9/4,Nguyễn Văn Thiều,7.0,8.25,6.0,21.25
+260477,Nguyễn Thị Kim Trang,9/1,Nguyễn Thanh Sơn,4.25,6.0,5.0,15.25
+260478,Nguyễn Thị Mỹ Trang,9/4,Nguyễn Văn Thiều,7.5,7.75,8.75,24.0
+260479,Phan Thảo Trang,9/4,Nguyễn Văn Thiều,7.0,9.0,7.0,23.0
+260480,Trần Huỳnh Quốc Trạng,9/4,Nguyễn Văn Thiều,6.0,5.0,5.5,16.5
+260481,Lê Thị Ngân Trâm,9/6,Nguyễn Văn Thiều,9.5,8.25,8.25,26.0
+260482,Lê Thị Ngọc Trâm,9/3,Nguyễn Thanh Sơn,8.75,3.25,6.25,18.25
+260483,Nguyễn Thị Hồng Trâm,9/3,Nguyễn Đắc Thắng,8.25,7.25,7.0,22.5
+260484,Trần Huỳnh Bảo Trâm,9/1,Võ Đăng Dược,8.0,8.75,6.75,23.5
+260485,Trần Ngọc Trâm,9/5,Nguyễn Văn Thiều,9.0,8.5,9.75,27.25
+260486,Trần Ngọc Trâm,9/1,Võ Đăng Dược,6.25,6.25,5.75,18.25
+260487,Dương Bảo Trân,9/1,Nguyễn Văn Thiều,8.5,7.75,8.5,24.75
+260488,Hồ Huỳnh Trân,9/2,Nguyễn Văn Thiều,9.5,7.0,8.75,25.25
+260489,Lê Phượng Trân,9/2,Nguyễn Thanh Sơn,9.75,8.5,9.25,27.5
+260490,Lương Ngọc Bảo Trân,9/3,Võ Đăng Dược,9.75,8.75,8.75,27.25
+260491,Nguyễn Ngọc Huyền Trân,9/1,Nguyễn Thanh Sơn,9.5,9.5,6.5,25.5
+260492,Nguyễn Thị Ngọc Trân,9/3,Nguyễn Văn Thiều,9.75,8.5,6.0,24.25
+260493,Nguyễn Thị Quế Trân,9/4,Võ Đăng Dược,8.25,5.5,3.5,17.25
+260494,Trần Ngọc Bảo Trân,9/3,Nguyễn Thị Bảy,9.25,6.5,7.0,22.75
+260495,Trần Ngọc Bảo Trân,9/3,Nguyễn Văn Thiều,9.0,6.0,4.5,19.5
+260496,Trần Ngọc Huyền Trân,9/1,Nguyễn Thị Bảy,7.75,4.0,6.75,18.5
+260497,Võ Nguyễn Huyền Trân,9/2,Nguyễn Văn Thiều,9.75,7.5,8.75,26.0
+260498,Đoàn Minh Trí,9/4,Nguyễn Đắc Thắng,7.25,3.75,5.5,16.5
+260499,Huỳnh Lê Minh Trí,9/1,Nguyễn Thanh Sơn,8.25,8.0,7.5,23.75
+260500,Lê Minh Trí,9/2,Nguyễn Văn Thiều,7.0,5.5,5.0,17.5
+260501,Nguyễn Minh Trí,9/4,Đoàn Trần Nghiệp,7.0,6.75,5.25,19.0
+260502,Võ Minh Trí,9/3,Nguyễn Văn Thiều,9.5,9.25,9.5,28.25
+260503,Lê Nguyễn Thị Duy Trinh,9/3,Nguyễn Đắc Thắng,8.75,7.0,6.0,21.75
+260504,Phan Lê Mai Trinh,9/6,Nguyễn Văn Thiều,9.5,7.75,6.75,24.0
+260505,Lê Thanh Trọng,9/6,Nguyễn Văn Thiều,8.5,6.25,7.75,22.5
+260506,Huỳnh Thị Thanh Trúc,9/3,Nguyễn Đắc Thắng,8.08,8.0,6.5,22.58
+260507,Lê Hoàng Trúc,9/6,Nguyễn Văn Thiều,7.08,8.25,6.25,21.58
+260508,Lê Huỳnh Thanh Trúc,9/4,Võ Đăng Dược,8.5,8.5,8.0,25.0
+260509,Lê Lâm Nhã Trúc,9/2,Nguyễn Thanh Sơn,8.0,9.75,9.75,27.5
+260510,Nguyễn Ngọc Thanh Trúc,9/1,Nguyễn Thanh Sơn,7.75,9.25,9.75,26.75
+260511,Nguyễn Thái Thanh Trúc,9/2,Nguyễn Văn Thiều,9.25,9.5,10.0,28.75
+260512,Nguyễn Thị Thanh Trúc,9/3,Nguyễn Thanh Sơn,6.92,8.0,3.25,18.17
+260513,Trần Phương Thùy Trúc,9/5,Võ Đăng Dược,7.0,7.75,6.25,21.0
+260514,Trần Thanh Trúc,9/2,Nguyễn Đắc Thắng,7.5,8.25,7.5,23.25
+260515,Trần Thị Thanh Trúc,9/2,Nguyễn Văn Thiều,7.5,8.25,8.75,24.5
+260516,Võ Thanh Trúc,9/4,Nguyễn Thanh Sơn,8.0,8.0,9.75,25.75
+260517,Võ Thanh Trúc,9/1,Nguyễn Đắc Thắng,7.75,8.75,8.0,24.5
+260518,Phạm Nhật Trường,9/4,Võ Đăng Dược,7.17,9.25,8.75,25.17
+260519,Lê Thị Cẩm Tú,9/4,Nguyễn Văn Thiều,8.5,9.75,9.0,27.25
+260520,Nguyễn Hoàng Thanh Tú,9/1,Võ Đăng Dược,5.5,7.5,4.75,17.75
+260521,Nguyễn Mai Cẩm Tú,9/5,Nguyễn Văn Thiều,5.5,6.75,3.5,15.75
+260522,Trần Thanh Tú,9/2,Nguyễn Văn Thiều,7.0,8.75,8.5,24.25
+260523,Trần Thanh Tú,9/3,Nguyễn Văn Thiều,6.75,7.5,7.0,21.25
+260524,Trương Thị Hoàng Tú,9/6,Nguyễn Văn Thiều,8.42,9.0,9.75,27.17
+260525,Bùi Hữu Tuấn,9/5,Võ Đăng Dược,8.0,8.75,5.0,21.75
+260526,Nguyễn Anh Tuấn,9/5,Võ Đăng Dược,5.5,7.75,5.5,18.75
+260527,Nguyễn Hoàng Tuấn,9/2,Nguyễn Thị Bảy,6.92,9.0,7.5,23.42
+260528,Nguyễn Hoàng Tuấn,9/5,Nguyễn Văn Thiều,7.25,7.75,7.25,22.25
+260529,Nguyễn Hoàng Anh Tuấn,9/2,Võ Đăng Dược,9.0,9.5,7.5,26.0
+260530,Nguyễn Thanh Tuấn,9/1,Nguyễn Đắc Thắng,6.5,8.5,6.25,21.25
+260531,Trần Thanh Tuấn,9/1,Nguyễn Thanh Sơn,6.0,6.75,3.0,15.75
+260532,Huỳnh Thanh Tùng,9/2,Nguyễn Đắc Thắng,8.5,7.0,5.5,21.0
+260533,Nguyễn Thanh Tùng,9/1,Nguyễn Đắc Thắng,9.0,6.75,9.0,24.75
+260534,Huỳnh Thanh Tuyền,9/2,Nguyễn Văn Thiều,9.25,9.75,8.75,27.75
+260535,Lê Ngọc Tuyền,9/2,Võ Đăng Dược,8.5,9.5,8.5,26.5
+260536,Lê Ngọc Tuyền,9/4,Nguyễn Thanh Sơn,8.75,9.0,3.75,21.5
+260537,Lê Thị Thanh Tuyền,9/1,Nguyễn Đắc Thắng,8.5,7.0,6.0,21.5
+260538,Nguyễn Ngọc Kim Tuyền,9/3,Nguyễn Thị Bảy,8.25,8.0,7.0,23.25
+260539,Phạm Thị Ngọc Tuyền,9/1,Nguyễn Đắc Thắng,6.5,5.25,4.25,16.0
+260540,Trần Thị Kim Tuyền,9/3,Nguyễn Thanh Sơn,7.25,6.75,3.75,17.75
+260541,Võ Thị Thanh Tuyền,9/4,Võ Đăng Dược,7.75,7.75,6.0,21.5
+260542,Nguyễn Thị Kim Tuyền,9/5,Nguyễn Văn Thiều,6.0,7.5,7.25,20.75
+260543,Lê Kim Tuyết,9/1,Nguyễn Văn Thiều,6.25,7.25,3.75,17.25
+260544,Trần Ngọc Cát Tường,9/5,Nguyễn Văn Thiều,8.25,9.0,8.25,25.5
+260545,Lê Kiều Uyên,9/4,Nguyễn Thanh Sơn,8.25,7.25,5.75,21.25
+260546,Nguyễn Văn Vàng,9/4,Nguyễn Thanh Sơn,4.5,3.75,3.0,11.25
+260547,Trần Châu Hồng Vân,9/2,Tân Phú,8.0,9.75,8.75,26.5
+260548,Trần Nguyễn Khánh Vân,9/2,Nguyễn Văn Thiều,9.25,8.5,8.25,26.0
+260549,Nguyễn Thanh Thảo Vi,9/5,Võ Đăng Dược,7.25,8.75,7.0,23.0
+260550,Trương Thị Thủy Vi,9/2,Nguyễn Thanh Sơn,5.25,5.25,4.5,15.0
+260551,Dương Minh Vinh,9/3,Nguyễn Thị Bảy,5.0,6.5,4.25,15.75
+260552,Huỳnh Nguyễn Hoàng Vinh,9/1,Nguyễn Thị Bảy,7.25,8.5,6.75,22.5
+260553,Lê Phúc Vinh,9/2,Nguyễn Văn Thiều,7.25,6.75,6.0,20.0
+260554,Lê Trần Hoàng Vinh,9/3,Võ Đăng Dược,7.5,9.75,9.25,26.5
+260555,Nguyễn Mạnh Vinh,9/4,Đoàn Trần Nghiệp,8.75,9.5,7.75,26.0
+260556,Bùi Ngọc Tường Vy,9/3,Nguyễn Văn Thiều,6.25,5.25,4.75,16.25
+260557,Đặng Ngọc Vy,9/2,Nguyễn Thanh Sơn,6.0,7.25,4.5,17.75
+260558,Đỗ Trương Tường Vy,9/2,Nguyễn Thanh Sơn,7.0,5.25,6.5,18.75
+260559,Huỳnh Lê Thúy Vy,9/2,Võ Đăng Dược,9.25,7.5,9.25,26.0
+260560,Lê Đặng Khánh Vy,9/3,Nguyễn Thanh Sơn,7.75,7.25,6.25,21.25
+260561,Lê Ngọc Nhã Vy,9/5,Nguyễn Văn Thiều,7.75,9.5,9.5,26.75
+260562,Lê Nguyễn Tường Vy,9/3,Võ Đăng Dược,7.75,9.5,4.5,21.75
+260563,Lê Quỳnh Yến Vy,9/6,Nguyễn Văn Thiều,9.25,8.0,6.75,24.0
+260564,Mai Thanh Tường Vy,9/3,Nguyễn Văn Thiều,5.75,6.25,4.0,16.0
+260565,Nguyễn Hà Kiều Vy,9/4,Nguyễn Thanh Sơn,6.25,7.25,7.25,20.75
+260566,Nguyễn Hoàng Thanh Vy,9/2,Nguyễn Thanh Sơn,8.5,9.5,9.25,27.25
+260567,Nguyễn Huỳnh Tuyết Vy,9/1,Nguyễn Thanh Sơn,3.5,4.5,3.0,11.0
+260568,Nguyễn Ngọc Thảo Vy,9/4,Đoàn Trần Nghiệp,7.5,8.75,7.5,23.75
+260569,Nguyễn Phương Vy,9/3,Võ Đăng Dược,7.5,5.75,4.5,17.75
+260570,Nguyễn Thị Kiều Vy,9/1,Nguyễn Thanh Sơn,5.5,5.5,3.75,14.75
+260571,Nguyễn Thị Mỹ Vy,9/3,Nguyễn Đắc Thắng,7.0,7.5,5.5,20.0
+260572,Phạm Nguyễn Tường Vy,9/1,Nguyễn Thị Bảy,9.0,8.75,9.5,27.25
+260573,Phạm Tường Vy,9/5,Nguyễn Văn Thiều,5.75,7.5,6.0,19.25
+260574,Ta Huỳnh Ái Vy,9/4,Nguyễn Văn Thiều,8.75,8.75,7.75,25.25
+260575,Ta Thúy Vy,9/3,Nguyễn Thanh Sơn,9.25,8.75,8.5,26.5
+260576,Trần Lâm Phương Vy,9/2,Nguyễn Văn Thiều,5.0,3.0,3.5,11.5
+260577,Trần Phương Vy,9/5,Nguyễn Văn Thiều,4.75,6.5,4.25,15.5
+260578,Trần Thị Lan Vy,9/1,Nguyễn Thanh Sơn,8.0,9.0,9.0,26.0
+260579,Trần Thị Tường Vy,9/4,Nguyễn Văn Thiều,5.0,5.25,6.0,16.25
+260580,Trần Thùy Vy,9/5,Võ Đăng Dược,6.5,8.5,6.75,21.75
+260581,Võ Như Ngọc Vy,9/4,Nguyễn Thanh Sơn,6.0,7.25,4.25,17.5
+260582,Nguyễn Trần Vỹ,9/5,Nguyễn Văn Thiều,6.5,8.25,9.0,23.75
+260583,Đặng Dương Vĩnh Xuân,9/3,Nguyễn Thanh Sơn,4.75,5.25,4.5,14.5
+260584,Nguyễn Ngọc Như Ý,9/2,Nguyễn Văn Thiều,6.25,7.25,4.5,18.0
+260585,Nguyễn Ngọc Như Ý,9/2,Nguyễn Đắc Thắng,7.75,8.75,8.75,25.25
+260586,Nguyễn Thị Như Ý,9/2,Nguyễn Văn Thiều,6.75,5.5,6.75,19.0
+260587,Nguyễn Thị Như Ý,9/5,Võ Đăng Dược,6.75,8.75,6.0,21.5
+260588,Võ Ngọc Như Ý,9/5,Nguyễn Văn Thiều,7.0,9.0,7.25,23.25
+260589,Đào Nguyễn Hải Yến,9/1,Võ Đăng Dược,5.25,8.5,7.0,20.75
+260590,Đặng Hải Yến,9/1,Nguyễn Thanh Sơn,5.75,6.75,7.0,19.5
+260591,Nguyễn Hoàng Hải Yến,9/3,Nguyễn Văn Thiều,8.5,9.25,10.0,27.75
+260592,Nguyễn Thị Ngọc Yến,9/1,Nguyễn Thanh Sơn,9.0,7.25,7.25,23.5
+260593,Trần Thị Bảo Yến,9/3,Nguyễn Đắc Thắng,7.25,7.25,5.75,20.25
+260594,Võ Thị Kim Yến,9/6,Nguyễn Văn Thiều,8.75,9.0,9.75,27.5
