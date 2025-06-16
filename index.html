@@ -258,6 +258,16 @@
                 -webkit-overflow-scrolling: touch;
             }
         }
+
+        input::-webkit-outer-spin-button,
+        input::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+
+        input[type=number] {
+            -moz-appearance: textfield;
+        }
     </style>
 </head>
 
@@ -268,7 +278,7 @@
                 <div class="search-item">
                     <label for="searchSbd">Số báo danh</label>
                     <div class="input-wrapper">
-                        <input type="number" id="searchSbd" placeholder="Nhập SBD..." maxlength="6">
+                        <input type="number" id="searchSbd" placeholder="Nhập SBD...">
                         <span class="clear-input" data-target="searchSbd">×</span>
                     </div>
                 </div>
@@ -296,7 +306,7 @@
                 <div class="search-item">
                     <label for="searchTotal">Điểm tổng</label>
                     <div class="input-wrapper">
-                        <input type="text" id="searchTotal" placeholder="0-30" pattern="[0-9\.]+" maxlength="5">
+                        <input type="text" id="searchTotal" placeholder="0-30">
                         <span class="clear-input" data-target="searchTotal">×</span>
                     </div>
                 </div>
@@ -427,7 +437,7 @@
                     clearTimeout(this.searchTimeout);
                     this.searchTimeout = setTimeout(() => {
                         this.filterData();
-                    }, 150);
+                    }, 750);
                 }
 
                 filterData() {
