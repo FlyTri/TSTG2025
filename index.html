@@ -47,7 +47,7 @@
             background: white;
             border-radius: 12px;
             padding: 24px;
-            margin-bottom: 24px;
+            margin-bottom: 16px; /* Giảm margin để nhường chỗ cho summary */
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
 
@@ -107,6 +107,14 @@
 
         input:not(:placeholder-shown) + .clear-input {
             opacity: 1;
+        }
+        
+        /* CSS MỚI */
+        .results-summary {
+            margin-bottom: 16px;
+            color: var(--text-secondary);
+            font-size: 14px;
+            font-weight: 500;
         }
 
         .table-section {
@@ -257,6 +265,14 @@
     <div class="container">
         <div class="search-section">
             <div class="search-grid">
+                <!-- HTML MỚI: Thêm ô tìm kiếm SBD -->
+                <div class="search-item">
+                    <label for="searchSbd">Số báo danh</label>
+                    <div class="input-wrapper">
+                        <input type="text" id="searchSbd" placeholder="Nhập SBD..." pattern="[0-9]*" maxlength="6">
+                        <span class="clear-input" data-target="searchSbd">×</span>
+                    </div>
+                </div>
                 <div class="search-item">
                     <label for="searchName">Tên học sinh</label>
                     <div class="input-wrapper">
@@ -287,6 +303,9 @@
                 </div>
             </div>
         </div>
+        
+        <!-- HTML MỚI: Thêm dòng hiển thị kết quả -->
+        <div id="resultsSummary" class="results-summary"></div>
 
         <div class="table-section">
             <div class="table-container">
@@ -335,17 +354,22 @@
                 initElements() {
                     this.elements = {
                         tableBody: document.getElementById('tableBody'),
+                        // JS CẬP NHẬT
+                        searchSbd: document.getElementById('searchSbd'),
                         searchName: document.getElementById('searchName'),
                         searchSchool: document.getElementById('searchSchool'),
                         searchClass: document.getElementById('searchClass'),
                         searchTotal: document.getElementById('searchTotal'),
                         tableHeaders: document.querySelectorAll('th[data-column]'),
-                        clearInputs: document.querySelectorAll('.clear-input')
+                        clearInputs: document.querySelectorAll('.clear-input'),
+                        // JS CẬP NHẬT
+                        resultsSummary: document.getElementById('resultsSummary')
                     };
                 }
 
                 initEvents() {
-                    ['searchName', 'searchSchool', 'searchClass', 'searchTotal'].forEach(id => {
+                    // JS CẬP NHẬT
+                    ['searchSbd', 'searchName', 'searchSchool', 'searchClass', 'searchTotal'].forEach(id => {
                         this.elements[id].addEventListener('input', () => this.handleSearch());
                     });
 
@@ -370,6 +394,9 @@
                         const csvText = await response.text();
                         this.parseCSV(csvText);
                         this.filteredData = [...this.data];
+                        
+                        // JS CẬP NHẬT
+                        this.updateResultsSummary();
                         this.renderTable();
                     } catch (error) {
                         console.error('Error:', error);
@@ -411,31 +438,61 @@
                 }
 
                 filterData() {
+                    // JS CẬP NHẬT
+                    const sbdFilter = this.elements.searchSbd.value.trim();
                     const nameFilter = this.elements.searchName.value.toLowerCase().trim();
                     const schoolFilter = this.elements.searchSchool.value.toLowerCase().trim();
                     const classFilter = this.elements.searchClass.value.trim();
                     const totalFilter = this.elements.searchTotal.value.trim();
 
-                    if (!nameFilter && !schoolFilter && !classFilter && !totalFilter) {
+                    if (!sbdFilter && !nameFilter && !schoolFilter && !classFilter && !totalFilter) {
                         this.filteredData = [...this.data];
                     } else {
                         this.filteredData = this.data.filter(row => {
-                            return (!nameFilter || row.name.toLowerCase().includes(nameFilter)) &&
+                            // JS CẬP NHẬT
+                            return (!sbdFilter || row.sbd.includes(sbdFilter)) &&
+                                (!nameFilter || row.name.toLowerCase().includes(nameFilter)) &&
                                 (!schoolFilter || row.school.toLowerCase().includes(schoolFilter)) &&
                                 (!classFilter || row.class.toLowerCase().includes(classFilter.toLowerCase())) &&
                                 (!totalFilter || row.total.toString().includes(totalFilter));
                         });
                     }
-
+                    
+                    // JS CẬP NHẬT
+                    this.updateResultsSummary();
                     this.renderTable();
                 }
 
+                // JS MỚI: Hàm cập nhật thông báo kết quả
+                updateResultsSummary() {
+                    const filteredCount = this.filteredData.length;
+                    const totalCount = this.data.length;
+
+                    if (totalCount > 0) {
+                        if (filteredCount === totalCount) {
+                            this.elements.resultsSummary.textContent = `Hiển thị tất cả ${totalCount} học sinh.`;
+                        } else {
+                            this.elements.resultsSummary.textContent = `Tìm thấy ${filteredCount} kết quả trong tổng số ${totalCount} học sinh.`;
+                        }
+                    } else {
+                        this.elements.resultsSummary.textContent = '';
+                    }
+                }
+
+
                 renderTable() {
-                    if (this.filteredData.length === 0) {
+                    if (this.filteredData.length === 0 && this.data.length > 0) {
                         this.elements.tableBody.innerHTML =
                             '<tr><td colspan="8" class="status-message">Không tìm thấy kết quả phù hợp</td></tr>';
                         return;
                     }
+                    
+                    if (this.filteredData.length === 0 && this.data.length === 0) {
+                         this.elements.tableBody.innerHTML =
+                            '<tr><td colspan="8" class="status-message status-loading">Đang tải dữ liệu...</td></tr>';
+                        return;
+                    }
+
 
                     const fragment = document.createDocumentFragment();
 
@@ -505,7 +562,7 @@
 
                     const sortKeys = ['sbd', 'name', 'class', 'school', 'van', 'toan', 'anh', 'total'];
                     const sortKey = sortKeys[columnIndex];
-                    const isNumeric = columnIndex >= 4;
+                    const isNumeric = columnIndex >= 4 || columnIndex === 0; // SBD cũng là số
                     const direction = this.currentSort.direction === 'asc' ? 1 : -1;
 
                     this.filteredData.sort((a, b) => {
@@ -513,6 +570,10 @@
                         const bVal = b[sortKey];
 
                         if (isNumeric) {
+                            // Sửa lại để so sánh SBD như số nếu có thể
+                            if(sortKey === 'sbd') {
+                                return (parseInt(aVal, 10) - parseInt(bVal, 10)) * direction;
+                            }
                             return (aVal - bVal) * direction;
                         }
                         return aVal.localeCompare(bVal, 'vi') * direction;
