@@ -9,7 +9,7 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260008,Phan Tấn An,9/6,Nguyễn Văn Thiều,7.00,8.25,8.00,23.25
 260009,Trần Tuấn An,9/2,Vô Đăng Được,7.50,10.00,7.50,25.0
 260010,Dương Ngọc Thái Anh,9/1,Phường 3,6.25,6.50,6.75,19.5
-260011,Đỗ Kim Anh,9_3,Nguyễn Đắc Thắng,7.75,8.75,5.75,22.25
+260011,Đỗ Kim Anh,9/3,Nguyễn Đắc Thắng,7.75,8.75,5.75,22.25
 260012,Giản Thị Lan Anh,9/4,Nguyễn Thanh Sơn,6.00,5.75,5.50,17.25
 260013,Lê Nhật Anh,9/3,Nguyễn Văn Thiều,5.75,3.25,3.00,12.0
 260014,Lê Thị Vân Anh,9/5,Vô Đăng Được,9.25,8.75,8.50,26.5
@@ -20,7 +20,7 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260019,Nguyễn Trần Quỳnh Anh,9/3,Đoàn Trần Nghiệp,9.25,10.00,8.75,28.0
 260020,Nguyễn Trọng Anh,9/4,Nguyễn Văn Thiều,5.75,9.00,8.00,22.75
 260021,Phan Ngọc Lan Anh,9/4,Vô Đăng Được,8.75,8.00,6.75,23.5
-260022,Tô Hồng Anh,9_1,Nguyễn Đắc Thắng,7.00,6.00,9.25,22.25
+260022,Tô Hồng Anh,9/1,Nguyễn Đắc Thắng,7.00,6.00,9.25,22.25
 260023,Tô Phạm Quỳnh Anh,9/4,Nguyễn Văn Thiều,8.00,8.25,6.75,23.0
 260024,Trần Nguyễn Phương Anh,9/1,Nguyễn Văn Thiều,7.75,9.00,9.75,26.5
 260025,Võ Minh Anh,9/4,Nguyễn Văn Thiều,7.75,7.75,10.00,25.5
@@ -49,7 +49,7 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260048,Huỳnh Bảo Châu,9/4,Nguyễn Đắc Thắng,7.50,9.00,8.25,24.75
 260049,Nguyễn Thị Bảo Châu,9/1,Nguyễn Văn Thiều,8.75,9.00,7.75,25.5
 260050,Trần Ngọc Minh Châu,9/1,Đoàn Trần Nghiệp,9.25,9.50,9.00,27.75
-260051,Trần Thị Ngọc Châu,9 3,Nguyễn Đắc Thắng,7.00,9.25,6.25,22.5
+260051,Trần Thị Ngọc Châu,9/3,Nguyễn Đắc Thắng,7.00,9.25,6.25,22.5
 260052,Lâm Thị Mai Chi,9/3,Đoàn Trần Nghiệp,6.75,7.00,6.75,20.5
 260053,Lê Thị Kim Chi,9/5,Võ Đăng Được,7.25,8.25,5.75,21.25
 260054,Trương Trịnh Kim Chi,9/3,Võ Đăng Được,7.75,8.25,7.25,23.25
@@ -57,17 +57,17 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260056,Lê Duy Chương,9/4,Võ Đăng Được,8.25,9.00,8.75,26.0
 260057,Hồ Diễm Cúc,9/2,Võ Đăng Được,6.75,7.75,4.25,18.75
 260058,Châu Chí Cường,9/1,Nguyễn Thanh Sơn,6.25,8.25,7.25,21.75
-260059,Dương Nhật Cường,9 4,Nguyễn Đắc Thắng,6.25,5.75,6.50,18.5
+260059,Dương Nhật Cường,9/4,Nguyễn Đắc Thắng,6.25,5.75,6.50,18.5
 260060,Nguyễn Ngọc Quốc Cường,9/6,Nguyễn Văn Thiều,7.75,6.50,8.00,22.25
 260061,Trần Nhật Cường,9/2,Đoàn Trần Nghiệp,7.25,6.75,6.75,20.75
 260062,Đào Thanh Danh,9/1,Võ Đăng Được,7.25,9.25,8.00,24.5
 260063,Đỗ Thành Danh,9/2,Nguyễn Thanh Sơn,7.75,7.75,8.25,23.75
 260064,Huỳnh Thành Danh,9/3,Võ Đăng Được,7.50,9.25,7.75,24.5
-260065,Nguyễn Thành Danh,9 2,Nguyễn Đắc Thắng,5.25,7.25,4.25,16.75
+260065,Nguyễn Thành Danh,9/2,Nguyễn Đắc Thắng,5.25,7.25,4.25,16.75
 260066,Huỳnh Nguyễn Ngọc Diễm,9/1,Nguyễn Thị Bảy,9.25,9.00,6.75,25.0
 260067,Lê Thị Hồng Diễm,9/4,Đoàn Trần Nghiệp,8.50,10.00,9.50,28.0
 260068,Đặng Thị Kim Diệu,9/1,Nguyễn Thanh Sơn,7.25,5.50,6.00,18.75
-260069,Huỳnh Thị Xuân Diệu,9 1,Nguyễn Đắc Thắng,8.50,9.50,9.50,27.5
+260069,Huỳnh Thị Xuân Diệu,9/1,Nguyễn Đắc Thắng,8.50,9.50,9.50,27.5
 260070,Nguyễn Thị Ngọc Diệu,9/5,Nguyễn Văn Thiều,6.25,7.75,5.25,19.25
 260071,Nguyễn Thị Thu Diệu,9/2,Nguyễn Văn Thiều,5.75,6.00,5.00,16.75
 260072,Nguyễn Ngọc Phương Du,9/1,Nguyễn Văn Thiều,5.75,8.50,7.50,21.75
@@ -145,24 +145,24 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260144,Bùi Kiến Huy,9/4,Nguyễn Thanh Sơn,5.25,4.75,2.25,12.25
 260145,Huỳnh Gia Huy,9/4,Vô Đăng Được,6.75,8.00,7.25,22.0
 260146,Huỳnh Hữu Huy,9/2,Đoàn Trần Nghiệp,8.00,9.50,8.00,25.5
-260147,Huỳnh Phước Đăng Huy,9_3,Nguyễn Đắc Thắng,5.75,6.75,3.00,15.5
+260147,Huỳnh Phước Đăng Huy,9/3,Nguyễn Đắc Thắng,5.75,6.75,3.00,15.5
 260148,Lưu Gia Huy,9/3,Nguyễn Văn Thiều,9.25,9.25,8.25,26.75
 260149,Ngô Thanh Huy,9/3,Nguyễn Thanh Sơn,9.25,10.00,9.25,28.5
 260150,Nguyễn Mỹ Huyền,9/1,Vô Đăng Được,6.25,10.00,9.50,25.75
 260151,Nguyễn Thị Mỹ Huyền,9/3,Nguyễn Thanh Sơn,9.75,8.25,9.75,27.75
-260152,Trương Thị Cẩm Huyền,9_3,Nguyễn Đắc Thắng,7.00,7.00,6.75,20.75
+260152,Trương Thị Cẩm Huyền,9/3,Nguyễn Đắc Thắng,7.00,7.00,6.75,20.75
 260153,Trần Ngọc Như Huỳnh,9/1,Nguyễn Thanh Sơn,9.00,9.00,8.75,26.75
 260154,Nguyễn Đăng Hưng,9/1,Nguyễn Văn Thiều,8.50,8.75,6.75,24.0
 260155,Nguyễn Thị Ngọc Hưng,9/3,Nguyễn Thanh Sơn,8.25,9.50,9.50,27.25
 260156,Huỳnh Thị Ngọc Hương,9/4,Nguyễn Thanh Sơn,8.75,8.75,8.75,26.25
-260157,Lưu Thị Thu Hương,9_3,Nguyễn Đắc Thắng,7.50,7.00,6.75,21.25
+260157,Lưu Thị Thu Hương,9/3,Nguyễn Đắc Thắng,7.50,7.00,6.75,21.25
 260158,Nguyễn Ngọc Quỳnh Hương,9/1,Nguyễn Thị Bảy,7.50,7.00,7.50,22.0
-260159,Nguyễn Ngọc Thanh Hương,9_4,Nguyễn Đắc Thắng,8.25,7.25,8.00,23.5
+260159,Nguyễn Ngọc Thanh Hương,9/4,Nguyễn Đắc Thắng,8.25,7.25,8.00,23.5
 260160,Nguyễn Thị Diễm Hương,9/2,Nguyễn Thị Bảy,8.25,7.50,5.25,21.0
 260161,Nguyễn Thị Quỳnh Hương,9/1,Vô Đăng Được,7.25,6.75,7.50,21.5
 260162,Trần Thị Quỳnh Hương,9/5,Vô Đăng Được,7.25,9.25,8.50,25.0
 260163,Trần Trọng Kha,9/1,Nguyễn Thanh Sơn,7.00,8.00,9.25,24.25
-260164,Đinh Hữu Duy Khang,9_2,Nguyễn Đắc Thắng,7.50,7.50,8.25,23.25
+260164,Đinh Hữu Duy Khang,9/2,Nguyễn Đắc Thắng,7.50,7.50,8.25,23.25
 260165,Đỗ Đại Khang,9/2,Nguyễn Thanh Sơn,9.00,9.25,9.75,28.0
 260166,Hồ Bảo Khang,9/2,Đoàn Trần Nghiệp,8.00,6.75,8.00,22.75
 260167,Huỳnh Tuấn Khang,9/6,Nguyễn Văn Thiều,8.50,9.00,7.00,24.5
@@ -233,7 +233,7 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260472,Nguyễn Trung Tin,9/2,Nguyễn Đắc Thắng,3.25,4.25,2.50,10.0
 260473,Nguyễn Kỳ Tinh,9/1,Nguyễn Đắc Thắng,8.50,9.50,8.25,26.25
 260474,Phạm Hữu Toàn,9/1,Nguyễn Đắc Thắng,9.50,10.00,9.50,29.0
-260475,Ngô Thị Thanh Trà,9 CHÍN 2,Tân Phú,8.75,9.00,9.25,27.0
+260475,Ngô Thị Thanh Trà,9/9,Tân Phú,8.75,9.00,9.25,27.0
 260476,Nguyễn Phương Trang,9/4,Nguyễn Văn Thiều,7.00,8.25,6.00,21.25
 260477,Nguyễn Thị Kim Trang,9/1,Nguyễn Thanh Sơn,4.25,6.00,5.00,15.25
 260478,Nguyễn Thị Mỹ Trang,9/4,Nguyễn Văn Thiều,7.50,7.75,8.75,24.0
@@ -241,7 +241,7 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260480,Trần Huỳnh Quốc Trạng,9/4,Nguyễn Văn Thiều,6.00,5.00,5.50,16.5
 260481,Lê Thị Ngân Trâm,9/6,Nguyễn Văn Thiều,9.50,8.25,8.25,26.0
 260482,Lê Thị Ngọc Trâm,9/3,Nguyễn Thanh Sơn,8.75,3.25,6.25,18.25
-260483,Nguyễn Thị Hồng Trâm,9 3,Nguyễn Đắc Thắng,8.25,7.25,7.00,22.5
+260483,Nguyễn Thị Hồng Trâm,9/3,Nguyễn Đắc Thắng,8.25,7.25,7.00,22.5
 260484,Trần Huỳnh Bảo Trâm,9/1,Võ Đăng Được,8.00,8.75,6.75,23.5
 260485,Trần Ngọc Trâm,9/5,Nguyễn Văn Thiều,9.00,8.50,9.75,27.25
 260486,Trần Ngọc Trâm,9/1,Võ Đăng Được,6.25,6.25,5.75,18.25
@@ -256,12 +256,12 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260495,Trần Ngọc Bảo Trân,9/3,Nguyễn Văn Thiều,9.00,6.00,4.50,19.5
 260496,Trần Ngọc Huyền Trân,9/1,Nguyễn Thị Bảy,7.75,4.00,6.75,18.5
 260497,Võ Nguyễn Huyền Trân,9/2,Nguyễn Văn Thiều,9.75,7.50,8.75,26.0
-260498,Đoàn Minh Tri,9 4,Nguyễn Đắc Thắng,7.25,3.75,5.50,16.5
+260498,Đoàn Minh Tri,9/4,Nguyễn Đắc Thắng,7.25,3.75,5.50,16.5
 260499,Huỳnh Lê Minh Trí,9/1,Nguyễn Thanh Sơn,8.25,8.00,7.50,23.75
 260500,Lê Minh Trí,9/2,Nguyễn Văn Thiều,7.00,5.50,5.00,17.5
 260501,Nguyễn Minh Trí,9/4,Đoàn Trần Nghiệp,7.00,6.75,5.25,19.0
 260502,Võ Minh Trí,9/3,Nguyễn Văn Thiều,9.50,9.25,9.50,28.25
-260503,Lê Nguyễn Thị Duy Trinh,9 3,Nguyễn Đắc Thắng,8.75,7.00,6.00,21.75
+260503,Lê Nguyễn Thị Duy Trinh,9/3,Nguyễn Đắc Thắng,8.75,7.00,6.00,21.75
 260504,Phan Lê Mai Trinh,9/6,Nguyễn Văn Thiều,9.50,7.75,6.75,24.0
 260505,Lê Thanh Trọng,9/6,Nguyễn Văn Thiều,8.50,6.25,7.75,22.5
 260506,Huỳnh Thị Thanh Trúc,9/3,Nguyễn Đắc Thắng,8.08,8.00,6.50,22.58
@@ -305,7 +305,7 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260544,Trần Ngọc Cát Tường,9/5,Nguyễn Văn Thiều,8.25,9.00,8.25,25.5
 260545,Lê Kiều Uyên,9/4,Nguyễn Thanh Sơn,8.25,7.25,5.75,21.25
 260546,Nguyễn Văn Vàng,9/4,Nguyễn Thanh Sơn,4.50,3.75,3.00,11.25
-260547,Trần Châu Hồng Vân,9_CHÍN 2,Tân Phú,8.00,9.75,8.75,26.5
+260547,Trần Châu Hồng Vân,9/9,Tân Phú,8.00,9.75,8.75,26.5
 260548,Trần Nguyễn Khánh Vân,9/2,Nguyễn Văn Thiều,9.25,8.50,8.25,26.0
 260549,Nguyễn Thanh Thảo Vi,9/5,Võ Đăng Được,7.25,8.75,7.00,23.0
 260550,Trương Thị Thúy Vi,9/2,Nguyễn Thanh Sơn,5.25,5.25,4.50,15.0
@@ -343,7 +343,7 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260582,Nguyễn Trần Vỹ,9/5,Nguyễn Văn Thiều,6.50,8.25,9.00,23.75
 260583,Đặng Dương Vĩnh Xuân,9/3,Nguyễn Thanh Sơn,4.75,5.25,4.50,14.5
 260584,Nguyễn Ngọc Như Ý,9/2,Nguyễn Văn Thiều,6.25,7.25,4.50,18.0
-260585,Nguyễn Ngọc Như Ý,9_2,Nguyễn Đắc Thắng,7.75,8.75,8.75,25.25
+260585,Nguyễn Ngọc Như Ý,9/2,Nguyễn Đắc Thắng,7.75,8.75,8.75,25.25
 260586,Nguyễn Thị Như Ý,9/2,Nguyễn Văn Thiều,6.75,5.50,6.75,19.0
 260587,Nguyễn Thị Như Ý,9/5,Võ Đăng Được,6.75,8.75,6.00,21.5
 260588,Võ Ngọc Như Ý,9/5,Nguyễn Văn Thiều,7.00,9.00,7.25,23.25
@@ -351,5 +351,5 @@ SBD,Họ và tên,Lớp,Trường,Điểm Văn,Điểm Toán,Điểm Anh,Tổng 
 260590,Đặng Hải Yến,9/1,Nguyễn Thanh Sơn,5.75,6.75,7.00,19.5
 260591,Nguyễn Hoàng Hải Yến,9/3,Nguyễn Văn Thiều,8.50,9.25,10.00,27.75
 260592,Nguyễn Thị Ngọc Yến,9/1,Nguyễn Thanh Sơn,9.00,7.25,7.25,23.5
-260593,Trần Thị Bảo Yến,9_3,Nguyễn Đắc Thắng,7.25,7.25,5.75,20.25
+260593,Trần Thị Bảo Yến,9/3,Nguyễn Đắc Thắng,7.25,7.25,5.75,20.25
 260594,Võ Thị Kim Yến,9/6,Nguyễn Văn Thiều,8.75,9.00,9.75,27.5
