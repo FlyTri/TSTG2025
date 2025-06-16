@@ -459,26 +459,31 @@
                 }
 
                 getScoreColor(score, maxScore) {
-                    const percentage = Math.round((score / maxScore) * 100);
+                    const percentage = Math.max(0, Math.min(100, (score / maxScore) * 100));
+                    const cacheKey = Math.round(percentage);
 
-                    if (this.scoreColorCache.has(percentage)) {
-                        return this.scoreColorCache.get(percentage);
+                    if (this.scoreColorCache.has(cacheKey)) {
+                        return this.scoreColorCache.get(cacheKey);
                     }
 
                     let r, g, b;
-
-                    if (percentage <= 50) {
-                        r = 220;
-                        g = 80 + Math.round((percentage / 50) * 120);
-                        b = 80;
+                    
+                    if (percentage < 50) {
+                        // Dải màu từ Đỏ (229, 62, 62) -> Vàng (245, 158, 11)
+                        const p = percentage / 50;
+                        r = Math.round(229 + p * (245 - 229));
+                        g = Math.round(62 + p * (158 - 62));
+                        b = Math.round(62 + p * (11 - 62));
                     } else {
-                        r = 220 - Math.round(((percentage - 50) / 50) * 165);
-                        g = 200 - Math.round(((percentage - 50) / 50) * 39);
-                        b = 80 + Math.round(((percentage - 50) / 50) * 25);
+                        // Dải màu từ Vàng (245, 158, 11) -> Xanh (16, 185, 129)
+                        const p = (percentage - 50) / 50;
+                        r = Math.round(245 + p * (16 - 245));
+                        g = Math.round(158 + p * (185 - 158));
+                        b = Math.round(11 + p * (129 - 11));
                     }
 
                     const color = `rgb(${r}, ${g}, ${b})`;
-                    this.scoreColorCache.set(percentage, color);
+                    this.scoreColorCache.set(cacheKey, color);
                     return color;
                 }
 
