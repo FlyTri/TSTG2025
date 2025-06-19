@@ -1,17 +1,14 @@
 <!DOCTYPE html>
 <html lang="vi">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kết quả tuyển sinh vào 10 2025 (VB, TG)</title>
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Google+Sans:wght@400;500;700&display=swap');
-
         :root {
             --primary-color: #4299e1;
             --danger-color: #e53e3e;
-            --danger-hover: #c53030;
             --text-color: #333;
             --text-secondary: #4a5568;
             --text-light: #718096;
@@ -20,9 +17,8 @@
             --header-bg: #4a5568;
             --header-hover: #2d3748;
             --row-hover: #f7fafc;
-            --disabled-bg: #cbd5e0;
+            --success-color: #38a169;
         }
-
         * {
             margin: 0;
             padding: 0;
@@ -30,19 +26,16 @@
             font-family: 'Google Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
             font-weight: 500;
         }
-
         body {
             background-color: var(--bg-color);
             color: var(--text-color);
             line-height: 1.6;
         }
-
         .container {
             max-width: 1200px;
             margin: 0 auto;
             padding: 20px;
         }
-
         .search-section {
             background: white;
             border-radius: 12px;
@@ -50,30 +43,25 @@
             margin-bottom: 16px;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
-
         .search-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
             gap: 16px;
             margin-bottom: 16px;
         }
-
         .search-item {
             display: flex;
             flex-direction: column;
         }
-
         .search-item label {
             font-weight: 500;
             color: var(--text-secondary);
             margin-bottom: 4px;
             font-size: 14px;
         }
-
         .input-wrapper {
             position: relative;
         }
-
         .search-item input {
             padding: 10px 12px;
             border: 2px solid var(--border-color);
@@ -83,12 +71,10 @@
             background: #fff;
             width: 100%;
         }
-
         .search-item input:focus {
             outline: none;
             border-color: var(--primary-color);
         }
-
         .clear-input {
             position: absolute;
             right: 12px;
@@ -100,38 +86,66 @@
             opacity: 0;
             transition: opacity 0.2s;
         }
-
         .clear-input:hover {
             color: var(--danger-color);
         }
-
         input:not(:placeholder-shown) + .clear-input {
             opacity: 1;
         }
-        
+        .share-section {
+            display: flex;
+            gap: 12px;
+            align-items: center;
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid var(--border-color);
+        }
+        .share-button {
+            padding: 8px 16px;
+            background: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 14px;
+            font-weight: 500;
+            transition: background-color 0.2s;
+        }
+        .share-button:hover {
+            background: #3182ce;
+        }
+        .share-button.copied {
+            background: var(--success-color);
+        }
+        .share-url {
+            flex: 1;
+            padding: 8px 12px;
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            font-size: 12px;
+            color: var(--text-light);
+            background: #f8f9fa;
+            word-break: break-all;
+        }
         .results-summary {
             margin-bottom: 16px;
             color: var(--text-secondary);
             font-size: 14px;
             font-weight: 500;
         }
-
         .table-section {
             background: white;
             border-radius: 12px;
             overflow: hidden;
             box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
         }
-
         .table-container {
             overflow-x: auto;
         }
-
         table {
             width: 100%;
             border-collapse: collapse;
         }
-
         th {
             background: var(--header-bg);
             color: white;
@@ -144,15 +158,12 @@
             position: relative;
             border-right: 1px solid var(--header-hover);
         }
-
         th:last-child {
             border-right: none;
         }
-
         th:hover {
             background: var(--header-hover);
         }
-
         th.sortable::after {
             content: '↕';
             position: absolute;
@@ -160,26 +171,21 @@
             opacity: 0.6;
             font-size: 12px;
         }
-
         th.sort-asc::after {
             content: '↑';
             opacity: 1;
         }
-
         th.sort-desc::after {
             content: '↓';
             opacity: 1;
         }
-
         td {
             padding: 12px;
             border-bottom: 1px solid var(--border-color);
         }
-
         tr:hover {
             background: var(--row-hover);
         }
-
         .score {
             display: inline-block;
             padding: 4px 8px;
@@ -190,22 +196,18 @@
             min-width: 40px;
             text-align: center;
         }
-
         .status-message {
             text-align: center;
             padding: 40px 20px;
             color: var(--text-light);
             font-size: 16px;
         }
-
         .status-loading {
             color: var(--primary-color);
         }
-
         .status-error {
             color: var(--danger-color);
         }
-
         .footer {
             text-align: center;
             padding: 20px;
@@ -213,63 +215,59 @@
             font-size: 14px;
             margin-top: 24px;
         }
-
         .footer a {
             color: var(--primary-color);
             text-decoration: none;
         }
-
         .footer a:hover {
             text-decoration: underline;
         }
-
         .col-sbd {
             min-width: 80px;
         }
-
         .col-name {
             min-width: 200px;
         }
-
         .col-class {
             min-width: 70px;
         }
-
         .col-school {
             min-width: 200px;
         }
-
         .col-van,
         .col-toan,
         .col-anh,
         .col-total {
             min-width: 100px;
         }
-
         @media (max-width: 768px) {
             .search-grid {
                 grid-template-columns: 1fr;
             }
-
             .table-container {
                 width: 100%;
                 overflow-x: auto;
                 -webkit-overflow-scrolling: touch;
             }
+            .share-section {
+                flex-direction: column;
+                align-items: stretch;
+            }
+            .share-url {
+                order: -1;
+                margin-bottom: 8px;
+            }
         }
-
         input::-webkit-outer-spin-button,
         input::-webkit-inner-spin-button {
             -webkit-appearance: none;
             margin: 0;
         }
-
         input[type=number] {
             -moz-appearance: textfield;
         }
     </style>
 </head>
-
 <body>
     <div class="container">
         <div class="search-section">
@@ -310,10 +308,12 @@
                     </div>
                 </div>
             </div>
+            <div class="share-section">
+                <button class="share-button" id="shareButton">Sao chép link</button>
+                <div class="share-url" id="shareUrl">Thay đổi bộ lọc để tạo link chia sẻ</div>
+            </div>
         </div>
-
         <div id="resultsSummary" class="results-summary"></div>
-
         <div class="table-section">
             <div class="table-container">
                 <table id="dataTable">
@@ -337,12 +337,10 @@
                 </table>
             </div>
         </div>
-
         <div class="footer">
             <p>Tạo bởi <strong><a href="https://claude.ai" target="_blank" rel="noopener noreferrer">Claude</a></strong> | <a href="https://github.com/FlyTri/TSTG2025" target="_blank" rel="noopener noreferrer">Source code</a></p>
         </div>
     </div>
-
     <script>
         document.addEventListener('DOMContentLoaded', () => {
             class StudentResultsTable {
@@ -352,14 +350,17 @@
                     this.currentSort = {column: -1, direction: 'asc'};
                     this.searchTimeout = null;
                     this.scoreColorCache = new Map();
-
+                    this.urlUpdateTimeout = null;
+                    this.init();
+                }
+                init() {
                     this.initElements();
                     this.initEvents();
+                    this.loadUrlParams();
                     this.loadData();
                 }
-
                 initElements() {
-                    this.elements = {
+                    this.el = {
                         tableBody: document.getElementById('tableBody'),
                         searchSbd: document.getElementById('searchSbd'),
                         searchName: document.getElementById('searchName'),
@@ -368,36 +369,107 @@
                         searchTotal: document.getElementById('searchTotal'),
                         tableHeaders: document.querySelectorAll('th[data-column]'),
                         clearInputs: document.querySelectorAll('.clear-input'),
-                        resultsSummary: document.getElementById('resultsSummary')
+                        resultsSummary: document.getElementById('resultsSummary'),
+                        shareButton: document.getElementById('shareButton'),
+                        shareUrl: document.getElementById('shareUrl')
                     };
                 }
-
                 initEvents() {
                     ['searchSbd', 'searchName', 'searchSchool', 'searchClass', 'searchTotal'].forEach(id => {
-                        this.elements[id].addEventListener('input', () => this.handleSearch());
+                        this.el[id].addEventListener('input', () => {
+                            this.handleSearch();
+                            this.updateUrl();
+                        });
                     });
-
-                    this.elements.tableHeaders.forEach(header => {
-                        header.addEventListener('click', () => this.sortTable(parseInt(header.dataset.column)))
+                    this.el.tableHeaders.forEach(header => {
+                        header.addEventListener('click', () => {
+                            this.sortTable(parseInt(header.dataset.column));
+                            this.updateUrl();
+                        });
                     });
-
-                    this.elements.clearInputs.forEach(btn => {
+                    this.el.clearInputs.forEach(btn => {
                         btn.addEventListener('click', (e) => {
                             const targetId = e.target.getAttribute('data-target');
                             document.getElementById(targetId).value = '';
                             this.handleSearch();
+                            this.updateUrl();
                         });
                     });
+                    this.el.shareButton.addEventListener('click', () => this.copyShareUrl());
+                    window.addEventListener('popstate', () => {
+                        this.loadUrlParams();
+                        this.filterData();
+                    });
                 }
-
+                loadUrlParams() {
+                    const params = new URLSearchParams(window.location.search);
+                    this.el.searchSbd.value = params.get('sbd') || '';
+                    this.el.searchName.value = params.get('name') || '';
+                    this.el.searchSchool.value = params.get('school') || '';
+                    this.el.searchClass.value = params.get('class') || '';
+                    this.el.searchTotal.value = params.get('total') || '';
+                    const sortColumn = params.get('sort');
+                    const sortDirection = params.get('dir') || 'asc';
+                    if (sortColumn !== null) {
+                        this.currentSort = {
+                            column: parseInt(sortColumn),
+                            direction: sortDirection
+                        };
+                        this.updateSortHeaders();
+                    }
+                    this.updateShareUrl();
+                }
+                updateUrl() {
+                    clearTimeout(this.urlUpdateTimeout);
+                    this.urlUpdateTimeout = setTimeout(() => {
+                        const params = new URLSearchParams();
+                        if (this.el.searchSbd.value) params.set('sbd', this.el.searchSbd.value);
+                        if (this.el.searchName.value) params.set('name', this.el.searchName.value);
+                        if (this.el.searchSchool.value) params.set('school', this.el.searchSchool.value);
+                        if (this.el.searchClass.value) params.set('class', this.el.searchClass.value);
+                        if (this.el.searchTotal.value) params.set('total', this.el.searchTotal.value);
+                        if (this.currentSort.column !== -1) {
+                            params.set('sort', this.currentSort.column.toString());
+                            params.set('dir', this.currentSort.direction);
+                        }
+                        const newUrl = window.location.pathname + (params.toString() ? '?' + params.toString() : '');
+                        window.history.replaceState({}, '', newUrl);
+                        this.updateShareUrl();
+                    }, 500);
+                }
+                updateShareUrl() {
+                    const currentUrl = window.location.href;
+                    const baseUrl = window.location.origin + window.location.pathname;
+                    this.el.shareUrl.textContent = currentUrl === baseUrl ? 'Thay đổi bộ lọc để tạo link chia sẻ' : currentUrl;
+                }
+                async copyShareUrl() {
+                    const url = window.location.href;
+                    try {
+                        await navigator.clipboard.writeText(url);
+                    } catch (err) {
+                        const textArea = document.createElement('textarea');
+                        textArea.value = url;
+                        document.body.appendChild(textArea);
+                        textArea.select();
+                        document.execCommand('copy');
+                        document.body.removeChild(textArea);
+                    }
+                    this.el.shareButton.textContent = 'Đã sao chép!';
+                    this.el.shareButton.classList.add('copied');
+                    setTimeout(() => {
+                        this.el.shareButton.textContent = 'Sao chép link';
+                        this.el.shareButton.classList.remove('copied');
+                    }, 2000);
+                }
                 async loadData() {
                     try {
                         const response = await fetch('data.csv');
                         if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-
                         const csvText = await response.text();
                         this.parseCSV(csvText);
                         this.filteredData = [...this.data];
+                        if (this.currentSort.column !== -1) this.applySorting();
+                        this.filterData();
                         this.updateResultsSummary();
                         this.renderTable();
                     } catch (error) {
@@ -405,11 +477,9 @@
                         this.showError('Không thể tải dữ liệu. Vui lòng kiểm tra file data.csv');
                     }
                 }
-
                 parseCSV(csvText) {
                     const lines = csvText.trim().split('\n');
                     this.data = [];
-
                     for (let i = 1; i < lines.length; i++) {
                         const values = lines[i].split(',');
                         if (values.length >= 8) {
@@ -426,26 +496,20 @@
                         }
                     }
                 }
-
                 parseScore(value) {
                     const score = parseFloat(value);
                     return isNaN(score) ? 0 : score;
                 }
-
                 handleSearch() {
                     clearTimeout(this.searchTimeout);
-                    this.searchTimeout = setTimeout(() => {
-                        this.filterData();
-                    }, 750);
+                    this.searchTimeout = setTimeout(() => this.filterData(), 300);
                 }
-
                 filterData() {
-                    const sbdFilter = this.elements.searchSbd.value.trim();
-                    const nameFilter = this.elements.searchName.value.toLowerCase().trim();
-                    const schoolFilter = this.elements.searchSchool.value.toLowerCase().trim();
-                    const classFilter = this.elements.searchClass.value.trim();
-                    const totalFilter = this.elements.searchTotal.value.trim();
-
+                    const sbdFilter = this.el.searchSbd.value.trim();
+                    const nameFilter = this.el.searchName.value.toLowerCase().trim();
+                    const schoolFilter = this.el.searchSchool.value.toLowerCase().trim();
+                    const classFilter = this.el.searchClass.value.trim();
+                    const totalFilter = this.el.searchTotal.value.trim();
                     if (!sbdFilter && !nameFilter && !schoolFilter && !classFilter && !totalFilter) {
                         this.filteredData = [...this.data];
                     } else {
@@ -457,43 +521,33 @@
                                 (!totalFilter || row.total.toString().includes(totalFilter));
                         });
                     }
-                    
+                    if (this.currentSort.column !== -1) this.applySorting();
                     this.updateResultsSummary();
                     this.renderTable();
                 }
-
                 updateResultsSummary() {
                     const filteredCount = this.filteredData.length;
                     const totalCount = this.data.length;
-
                     if (totalCount > 0) {
                         if (filteredCount === totalCount) {
-                            this.elements.resultsSummary.textContent = `Hiển thị tất cả ${totalCount} học sinh.`;
+                            this.el.resultsSummary.textContent = `Hiển thị tất cả ${totalCount} học sinh.`;
                         } else {
-                            this.elements.resultsSummary.textContent = `Tìm thấy ${filteredCount} kết quả trong tổng số ${totalCount} học sinh.`;
+                            this.el.resultsSummary.textContent = `Tìm thấy ${filteredCount} kết quả trong tổng số ${totalCount} học sinh.`;
                         }
                     } else {
-                        this.elements.resultsSummary.textContent = '';
+                        this.el.resultsSummary.textContent = '';
                     }
                 }
-
-
                 renderTable() {
                     if (this.filteredData.length === 0 && this.data.length > 0) {
-                        this.elements.tableBody.innerHTML =
-                            '<tr><td colspan="8" class="status-message">Không tìm thấy kết quả phù hợp</td></tr>';
+                        this.el.tableBody.innerHTML = '<tr><td colspan="8" class="status-message">Không tìm thấy kết quả phù hợp</td></tr>';
                         return;
                     }
-                    
                     if (this.filteredData.length === 0 && this.data.length === 0) {
-                         this.elements.tableBody.innerHTML =
-                            '<tr><td colspan="8" class="status-message status-loading">Đang tải dữ liệu...</td></tr>';
+                        this.el.tableBody.innerHTML = '<tr><td colspan="8" class="status-message status-loading">Đang tải dữ liệu...</td></tr>';
                         return;
                     }
-
-
                     const fragment = document.createDocumentFragment();
-
                     this.filteredData.forEach(row => {
                         const tr = document.createElement('tr');
                         tr.innerHTML = `
@@ -508,21 +562,16 @@
                         `;
                         fragment.appendChild(tr);
                     });
-
-                    this.elements.tableBody.innerHTML = '';
-                    this.elements.tableBody.appendChild(fragment);
+                    this.el.tableBody.innerHTML = '';
+                    this.el.tableBody.appendChild(fragment);
                 }
-
                 getScoreColor(score, maxScore) {
                     const percentage = Math.max(0, Math.min(100, (score / maxScore) * 100));
                     const cacheKey = Math.round(percentage);
-
                     if (this.scoreColorCache.has(cacheKey)) {
                         return this.scoreColorCache.get(cacheKey);
                     }
-
                     let r, g, b;
-                    
                     if (percentage < 50) {
                         const p = percentage / 50;
                         r = Math.round(229 + p * (245 - 229));
@@ -534,37 +583,36 @@
                         g = Math.round(158 + p * (185 - 158));
                         b = Math.round(11 + p * (129 - 11));
                     }
-
                     const color = `rgb(${r}, ${g}, ${b})`;
                     this.scoreColorCache.set(cacheKey, color);
                     return color;
                 }
-
                 sortTable(columnIndex) {
-                    this.elements.tableHeaders.forEach(th => {
-                        th.classList.remove('sort-asc', 'sort-desc');
-                    });
-
-                    const currentHeader = this.elements.tableHeaders[columnIndex];
-
                     if (this.currentSort.column === columnIndex) {
                         this.currentSort.direction = this.currentSort.direction === 'asc' ? 'desc' : 'asc';
                     } else {
                         this.currentSort.direction = 'asc';
                         this.currentSort.column = columnIndex;
                     }
-
-                    currentHeader.classList.add(`sort-${this.currentSort.direction}`);
-
+                    this.updateSortHeaders();
+                    this.applySorting();
+                    this.renderTable();
+                }
+                updateSortHeaders() {
+                    this.el.tableHeaders.forEach(th => th.classList.remove('sort-asc', 'sort-desc'));
+                    if (this.currentSort.column !== -1) {
+                        const currentHeader = this.el.tableHeaders[this.currentSort.column];
+                        currentHeader.classList.add(`sort-${this.currentSort.direction}`);
+                    }
+                }
+                applySorting() {
                     const sortKeys = ['sbd', 'name', 'class', 'school', 'van', 'toan', 'anh', 'total'];
-                    const sortKey = sortKeys[columnIndex];
-                    const isNumeric = columnIndex >= 4 || columnIndex === 0;
+                    const sortKey = sortKeys[this.currentSort.column];
+                    const isNumeric = this.currentSort.column >= 4 || this.currentSort.column === 0;
                     const direction = this.currentSort.direction === 'asc' ? 1 : -1;
-
                     this.filteredData.sort((a, b) => {
                         const aVal = a[sortKey];
                         const bVal = b[sortKey];
-
                         if (isNumeric) {
                             if(sortKey === 'sbd') {
                                 return (parseInt(aVal, 10) - parseInt(bVal, 10)) * direction;
@@ -573,19 +621,13 @@
                         }
                         return aVal.localeCompare(bVal, 'vi') * direction;
                     });
-
-                    this.renderTable();
                 }
-
                 showError(message) {
-                    this.elements.tableBody.innerHTML =
-                        `<tr><td colspan="8" class="status-message status-error">${message}</td></tr>`;
+                    this.el.tableBody.innerHTML = `<tr><td colspan="8" class="status-message status-error">${message}</td></tr>`;
                 }
             }
-
             new StudentResultsTable();
         });
     </script>
 </body>
-
 </html>
